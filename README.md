@@ -1,4 +1,4 @@
-# random-finds
+# random-shit
 Random scripts and shitz
 
 <details>
