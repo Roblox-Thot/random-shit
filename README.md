@@ -16,5 +16,6 @@ Random scripts and shitz
   <blockquote>
     <a href="https://github.com/Roblox-Thot/random-shit/blob/main/data/Log%20files%20in%20workspace.lua">Link</a><br>
     Will save to file any whitelisted files to a file<br>
+    To export saved data use this <a href="https://github.com/Roblox-Thot/random-shit/blob/main/data/Export%20logged%20files.lua">script</a><br>
   </blockquote>
 </details>
