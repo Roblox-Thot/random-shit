@@ -2,58 +2,7 @@
 Grabs user info from Discord if PreMiD is being ran
 Stuff that are grabbed: Username, premium type, avatar hex, user id, flags, discriminator, bot tag
 ]]--
-local badges = {
-  Discord_Employee = {
-    Value = 1,
-    Emoji = '<:staff:874750808728666152>',
-    Rare = true,
-  },
-  Partnered_Server_Owner = {
-    Value = 2,
-    Emoji = '<:partner:874750808678354964>',
-    Rare = true,
-  },
-  HypeSquad_Events = {
-    Value = 4,
-    Emoji = '<:hypesquad_events:874750808594477056>',
-    Rare = true,
-  },
-  Bug_Hunter_Level_1 = {
-    Value = 8,
-    Emoji = '<:bughunter_1:874750808426692658>',
-    Rare = true,
-  },
-  Early_Supporter = {
-    Value = 512,
-    Emoji = '<:early_supporter:874750808414113823>',
-    Rare = true,
-  },
-  Bug_Hunter_Level_2 = {
-    Value = 16384,
-    Emoji = '<:bughunter_2:874750808430874664>',
-    Rare = true,
-  },
-  Early_Verified_Bot_Developer = {
-    Value = 131072,
-    Emoji = '<:developer:874750808472825986>',
-    Rare = true,
-  },
-  House_Bravery = {
-    Value = 64,
-    Emoji = '<:bravery:874750808388952075>',
-    Rare = false,
-  },
-  House_Brilliance = {
-    Value = 128,
-    Emoji = '<:brilliance:874750808338608199>',
-    Rare = false,
-  },
-  House_Balance = {
-    Value = 256,
-    Emoji = '<:balance:874750808267292683>',
-    Rare = false,
-  },
-}
+local badges = { Discord_Employee = { Value = 1, Emoji = '<:staff:874750808728666152>', Rare = true, }, Partnered_Server_Owner = { Value = 2, Emoji = '<:partner:874750808678354964>', Rare = true, }, HypeSquad_Events = { Value = 4, Emoji = '<:hypesquad_events:874750808594477056>', Rare = true, }, Bug_Hunter_Level_1 = { Value = 8, Emoji = '<:bughunter_1:874750808426692658>', Rare = true, }, Early_Supporter = { Value = 512, Emoji = '<:early_supporter:874750808414113823>', Rare = true, }, Bug_Hunter_Level_2 = { Value = 16384, Emoji = '<:bughunter_2:874750808430874664>', Rare = true, }, Early_Verified_Bot_Developer = { Value = 131072, Emoji = '<:developer:874750808472825986>', Rare = true, }, House_Bravery = { Value = 64, Emoji = '<:bravery:874750808388952075>', Rare = false, }, House_Brilliance = { Value = 128, Emoji = '<:brilliance:874750808338608199>', Rare = false, }, House_Balance = { Value = 256, Emoji = '<:balance:874750808267292683>', Rare = false, } }
 
 function getBadges(flags)
   local b = ''
