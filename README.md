@@ -14,8 +14,8 @@ Random scripts and shitz
 <details>
   <summary>Log files in workspace.lua</summary>
   <blockquote>
-    <a href="/data/Log files in workspace.lua">Link</a><br>
+    <a href="/data/WL/Log files in workspace.lua">Link</a><br>
     Will save to file any whitelisted files to a file<br>
-    To export saved data use this <a href="/data/Export logged files.lua">RLua script</a> or <a href="/data/Export logged files.py">Python script</a><br>
+    To export saved data use this <a href="/data/WL/Export logged files.lua">RLua script</a> or <a href="/data/WL/Export logged files.py">Python script</a><br>
   </blockquote>
 </details>
