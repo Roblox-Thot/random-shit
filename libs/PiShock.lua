@@ -1,4 +1,9 @@
---Library for PiShock--
+--[[
+    PiShock Library made by Roblox Thot
+    Discord: @Roblox_Thot
+    Telegram: @Roblox_Thot
+    GitHub: Roblox-Thot
+]]--
 
 local function shockAPI(username: StringValue, app_name: StringValue, sharecode: StringValue, api_key: StringValue)
     local HttpRequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
