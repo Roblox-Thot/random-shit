@@ -23,7 +23,7 @@ local function shockAPI(username: StringValue, app_name: StringValue, sharecode:
 
     return function(intensity: IntValue, duration: IntValue, operation: StringValue)
         if operation == nil then operation = "vibrate" end
-        if operations[operation] == nil then warn("Not a valid operation") return "Failed" end
+        if operations[string.lower(operation)] == nil then warn("Not a valid operation") return "Failed" end
         if intensity < 1 or intensity > 100 then warn("intensity range is 1-100") return "Failed" end
         if duration < 1 or duration > 15 then warn("duration range is 1-100") return "Failed" end
 
@@ -46,7 +46,7 @@ local function shockAPI(username: StringValue, app_name: StringValue, sharecode:
             Body = game:GetService("HttpService"):JSONEncode(body)
         })
 
-        return response
+        return response.Body
     end
 end
 
