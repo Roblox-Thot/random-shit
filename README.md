@@ -14,9 +14,9 @@ Random scripts and shitz
 <details>
   <summary>Log files in workspace.lua</summary>
   <blockquote>
-    <a href="/data/WL/Log files in workspace.lua">Link</a><br>
+    <a href="/data/WorkspaceLog/Log files in workspace.lua">Link</a><br>
     Will save to file any whitelisted files to a file<br>
-    To export saved data use this <a href="/data/WL/Export logged files.lua">RLua script</a> or <a href="/data/WL/Export logged files.py">Python script</a><br>
+    To export saved data use this <a href="/data/WorkspaceLog/Export logged files.lua">RLua script</a> or <a href="/data/WorkspaceLog/Export logged files.py">Python script</a><br>
   </blockquote>
 </details>
 
@@ -27,5 +27,14 @@ Random scripts and shitz
     Library for PiShock<br>
     <img height=420 src="https://github.com/Roblox-Thot/random-shit/assets/67937010/38e66160-8e98-4f05-8d98-ec04bb777873">
 
+  </blockquote>
+</details>
+
+<details>
+  <summary>AddEmails.py</summary>
+  <blockquote>
+    <a href="/AddEmails.py">Link</a><br>
+    Python script to add a random email to your Roblox account.<br>
+    You do require a domain with email forwarding to somewhere you can read all the emails.
   </blockquote>
 </details>

