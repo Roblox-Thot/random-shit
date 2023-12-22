@@ -1,5 +1,5 @@
 # random-shit
-Random scripts and shitz
+Random scripts and shit that don't require their own repo
 
 <details>
   <summary>Get Discord from PreMiD.lua</summary>
