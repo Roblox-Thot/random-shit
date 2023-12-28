@@ -1,5 +1,6 @@
 '''
 You will need a "catch all" on a domain and forward it to an email you have access to.
+You could also edit this to use the + email trick on sites like Gmail and Yahoo.
 Just change "DOMAIN" to the domain that it is set up for.
 '''
 import requests, secrets, string
