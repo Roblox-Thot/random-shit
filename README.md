@@ -26,7 +26,14 @@ Random scripts and shit that don't require their own repo
     <a href="/libs/PiShock.lua">Link</a><br>
     Library for PiShock<br>
     <img height=420 src="https://github.com/Roblox-Thot/random-shit/assets/67937010/38e66160-8e98-4f05-8d98-ec04bb777873">
+  </blockquote>
+</details>
 
+<details>
+  <summary>badges.lua</summary>
+  <blockquote>
+    <a href="/badges.lua">Link</a><br>
+    Roblox script to grab all the Roblox badge ids in the current game
   </blockquote>
 </details>
 
@@ -36,5 +43,13 @@ Random scripts and shit that don't require their own repo
     <a href="/AddEmails.py">Link</a><br>
     Python script to add a random email to your Roblox account.<br>
     You do require a domain with email forwarding to somewhere you can read all the emails.
+  </blockquote>
+</details>
+
+<details>
+  <summary>Roblox Unwarn.py</summary>
+  <blockquote>
+    <a href="/Roblox Unwarn.py">Link</a><br>
+    Python script to show a way to restore a Roblox account after a warn or waited out ban.
   </blockquote>
 </details>
