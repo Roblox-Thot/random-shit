@@ -3,6 +3,13 @@
     Discord: @Roblox_Thot
     Telegram: @Roblox_Thot
     GitHub: Roblox-Thot
+    
+    
+    How to use:
+
+    shockAPI = loadstring(game:HttpGet('url here'))
+    shocker = shockAPI('RT','Roblox','ShareCode','ApiKey')
+    shocker(50,2,'shock')
 ]]--
 
 local function shockAPI(username: StringValue, app_name: StringValue, sharecode: StringValue, api_key: StringValue)
