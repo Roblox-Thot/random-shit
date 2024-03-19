@@ -53,3 +53,12 @@ Random scripts and shit that don't require their own repo
     Python script to show a way to restore a Roblox account after a warn or waited out ban.
   </blockquote>
 </details>
+
+<details>
+  <summary>DiscordRobloxConnection.py</summary>
+  <blockquote>
+    <a href="/DiscordRobloxConnection.py">Link</a><br>
+    Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
+    Recommended method is to use <a href=https://github.com/ic3w0lf22/Roblox-Account-Manager>ic3w0lf22/Roblox-Account-Manager</a> and click the "Open URL" with "http://127.0.0.1/"
+  </blockquote>
+</details>
