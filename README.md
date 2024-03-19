@@ -32,7 +32,7 @@ Random scripts and shit that don't require their own repo
 <details>
   <summary>badges.lua</summary>
   <blockquote>
-    <a href="/badges.lua">Link</a><br>
+    <a href="/data/badges.lua">Link</a><br>
     Roblox script to grab all the Roblox badge ids in the current game
   </blockquote>
 </details>
@@ -40,7 +40,7 @@ Random scripts and shit that don't require their own repo
 <details>
   <summary>AddEmails.py</summary>
   <blockquote>
-    <a href="/AddEmails.py">Link</a><br>
+    <a href="/data/AddEmails.py">Link</a><br>
     Python script to add a random email to your Roblox account.<br>
     You do require a domain with email forwarding to somewhere you can read all the emails.
   </blockquote>
@@ -49,7 +49,7 @@ Random scripts and shit that don't require their own repo
 <details>
   <summary>Roblox Unwarn.py</summary>
   <blockquote>
-    <a href="/Roblox Unwarn.py">Link</a><br>
+    <a href="/data/Roblox Unwarn.py">Link</a><br>
     Python script to show a way to restore a Roblox account after a warn or waited out ban.
   </blockquote>
 </details>
@@ -57,7 +57,7 @@ Random scripts and shit that don't require their own repo
 <details>
   <summary>DiscordRobloxConnection.py</summary>
   <blockquote>
-    <a href="/DiscordRobloxConnection.py">Link</a><br>
+    <a href="/data/DiscordRobloxConnection.py">Link</a><br>
     Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
     Recommended method is to use <a href=https://github.com/ic3w0lf22/Roblox-Account-Manager>ic3w0lf22/Roblox-Account-Manager</a> and click the "Open URL" with "http://127.0.0.1/"
   </blockquote>
