@@ -2,21 +2,21 @@
 Random scripts and shit that don't require their own repo
 
 <details>
-  <summary>Get Discord from PreMiD.lua</summary>
+  <summary>GetDiscordFromPreMiD.lua</summary>
   <blockquote>
-    <a href="/data/Get Discord from PreMiD.lua">Link</a><br>
+    <a href="/data/GetDiscordFromPreMiD.lua">Link</a><br>
     If the user has PreMiD installed then it will print/grab some user info.<br>
     Example:<br>
-    <img width=694 alt="image" src="https://user-images.githubusercontent.com/67937010/208335348-84c2de5d-c9a8-42f1-832a-af556241ccd8.png">
+    <img width=690 alt="image" src="https://user-images.githubusercontent.com/67937010/208335348-84c2de5d-c9a8-42f1-832a-af556241ccd8.png">
   </blockquote>
 </details>
 
 <details>
-  <summary>Log files in workspace.lua</summary>
+  <summary>LogFilesInWorkspace.lua</summary>
   <blockquote>
-    <a href="/data/WorkspaceLog/Log files in workspace.lua">Link</a><br>
+    <a href="/data/WorkspaceLog/LogFilesInWorkspace.lua">Link</a><br>
     Will save to file any whitelisted files to a file<br>
-    To export saved data use this <a href="/data/WorkspaceLog/Export logged files.lua">RLua script</a> or <a href="/data/WorkspaceLog/Export logged files.py">Python script</a><br>
+    To export saved data use this <a href="/data/WorkspaceLog/ExportLoggedFiles.lua">RLua script</a> or <a href="/data/WorkspaceLog/ExportLoggedFiles.py">Python script</a><br>
   </blockquote>
 </details>
 
@@ -30,9 +30,9 @@ Random scripts and shit that don't require their own repo
 </details>
 
 <details>
-  <summary>badges.lua</summary>
+  <summary>Badges.lua</summary>
   <blockquote>
-    <a href="/data/badges.lua">Link</a><br>
+    <a href="/data/Badges.lua">Link</a><br>
     Roblox script to grab all the Roblox badge ids in the current game
   </blockquote>
 </details>
@@ -47,9 +47,9 @@ Random scripts and shit that don't require their own repo
 </details>
 
 <details>
-  <summary>Roblox Unwarn.py</summary>
+  <summary>RobloxUnwarn.py</summary>
   <blockquote>
-    <a href="/data/Roblox Unwarn.py">Link</a><br>
+    <a href="/data/RobloxUnwarn.py">Link</a><br>
     Python script to show a way to restore a Roblox account after a warn or waited out ban.
   </blockquote>
 </details>
