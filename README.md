@@ -59,7 +59,8 @@ Random scripts and shit that don't require their own repo
   <blockquote>
     <a href="/data/DiscordRobloxConnection.py">Link</a><br>
     Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
-    Recommended method is to use <a href=https://github.com/ic3w0lf22/Roblox-Account-Manager>ic3w0lf22/Roblox-Account-Manager</a> and click the "Open URL" with "http://127.0.0.1/"
+    Recommended method is to use <a href=https://github.com/ic3w0lf22/Roblox-Account-Manager>ic3w0lf22/Roblox-Account-Manager</a> and click the "Open URL" with "http://127.0.0.1/"<br>
+    <a href='https://i.imgur.com/bXELV3Z.png'><img height=200 src='https://i.imgur.com/bXELV3Z.png'></a>
   </blockquote>
 </details>
 
