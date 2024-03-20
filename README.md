@@ -62,3 +62,12 @@ Random scripts and shit that don't require their own repo
     Recommended method is to use <a href=https://github.com/ic3w0lf22/Roblox-Account-Manager>ic3w0lf22/Roblox-Account-Manager</a> and click the "Open URL" with "http://127.0.0.1/"
   </blockquote>
 </details>
+
+<details>
+  <summary>AvatarChangeLogs.py</summary>
+  <blockquote>
+    <a href="/data/AvatarChangeLogs.py">Link</a><br>
+    Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
+    <a href='https://i.imgur.com/lcu7yFf.png'><img height=420 src='https://i.imgur.com/lcu7yFf.png'></a>
+  </blockquote>
+</details>
