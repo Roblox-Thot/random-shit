@@ -38,7 +38,7 @@ function createfile(files)
         local data = readfile(files[index])
         dick[files[index]]=data
     end
-    writefile(outFileName,  Game:GetService("HttpService"):JSONEncode(dick))
+    writefile(outFileName,  game:GetService("HttpService"):JSONEncode(dick))
 end
 
 function whitelistFTCheck(str)

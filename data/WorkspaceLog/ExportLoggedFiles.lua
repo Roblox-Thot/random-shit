@@ -7,7 +7,7 @@ local outFolder = "export"
 if not isfolder(outFolder) then makefolder(outFolder) end
 
 local fileData = readfile(logFileName)
-local jsonData = Game:GetService("HttpService"):JSONDecode(fileData)
+local jsonData = game:GetService("HttpService"):JSONDecode(fileData)
 for name, data in pairs(jsonData) do
     local splitName = name:split("\\")
     if #splitName > 1 then
