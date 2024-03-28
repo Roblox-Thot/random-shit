@@ -72,3 +72,11 @@ Random scripts and shit that don't require their own repo
     <a href='https://i.imgur.com/lcu7yFf.png'><img height=420 src='https://i.imgur.com/lcu7yFf.png'></a>
   </blockquote>
 </details>
+
+<details>
+  <summary>DeleteRobloxKeys.ps1</summary>
+  <blockquote>
+    <a href="/data/DeleteRobloxKeys.ps1">Link</a><br>
+    Powershell script to remove any Roblox keys from Windows Credential manager tab
+  </blockquote>
+</details>
