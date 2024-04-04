@@ -1,7 +1,6 @@
 # Cleans Roblox studio data
 
-# Just run this in a powershell window
-# to delete all Roblox credentials from
+# This deletes all saved Roblox credentials from
 # "Control Panel\User Accounts\Credential Manager"'s windows credential manager
 cmdkey /list | ForEach-Object { if ($_ -like "*roblox*") { cmdkey /del:($_ -replace '^[^=]+',"" -replace "=","") } }
 
