@@ -80,3 +80,12 @@ Random scripts and shit that don't require their own repo
     Powershell script to remove any Roblox keys from Windows Credential manager tab
   </blockquote>
 </details>
+
+<details>
+  <summary>RunScript.lua</summary>
+  <blockquote>
+    <a href="/data/RunScript.lua">Link</a><br>
+    Roblox Studio plugin to allow running the currently open script<br>
+    Just place the Lua file in `%localappdata%/Roblox/Plugins`
+  </blockquote>
+</details>
