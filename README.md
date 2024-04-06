@@ -86,6 +86,6 @@ Random scripts and shit that don't require their own repo
   <blockquote>
     <a href="/data/RunScript.lua">Link</a><br>
     Roblox Studio plugin to allow running the currently open script<br>
-    Just place the Lua file in `%localappdata%/Roblox/Plugins`
+    Just place the Lua file in "%localappdata%/Roblox/Plugins"
   </blockquote>
 </details>
