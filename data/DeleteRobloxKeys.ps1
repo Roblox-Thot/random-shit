@@ -4,8 +4,9 @@
 # "Control Panel\User Accounts\Credential Manager"'s windows credential manager
 cmdkey /list | ForEach-Object { if ($_ -like "*roblox*") { cmdkey /del:($_ -replace '^[^=]+',"" -replace "=","") } }
 
-# This clears the Roblox Studio Registry which will clear any other logged in accounts
-reg delete HKCU\Software\Roblox\RobloxStudio /f
-
-# If you rather just clear the users and not the whole Registry you can just do this
+# Delete logged in users
 reg delete HKCU\Software\Roblox\RobloxStudio\LoggedInUsersStore /f
+
+# Delete tracking data
+reg delete HKCU\Software\Roblox\RobloxStudio\RobloxStudioLaunchTrackingGuid /f
+reg delete HKCU\Software\Roblox\RobloxStudio\Retention
