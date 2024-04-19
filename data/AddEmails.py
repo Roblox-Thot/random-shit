@@ -2,6 +2,8 @@
 You will need a "catch all" on a domain and forward it to an email you have access to.
 You could also edit this to use the + email trick on sites like Gmail and Yahoo.
 Just change "DOMAIN" to the domain that it is set up for.
+
+You can verify 10 cookies per IP till you get ratelimited for a while
 '''
 import requests, secrets, string
 from time import sleep
