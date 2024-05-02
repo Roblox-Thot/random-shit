@@ -1,5 +1,8 @@
 '''
 This is the code that can be used to reactivate a Roblox account after a ban/warn
+
+BROKEN
+
 '''
 import time
 from requests import session
