@@ -24,7 +24,7 @@ def unwarn(cookie:str):
                 if len(ban_data) > 0:
                     punishmentTypeDescription = ban_data["punishmentTypeDescription"]
                     print(f'The account has been {punishmentTypeDescription}')
-                    if punishmentTypeDescription != "Warn": break
+                    if punishmentTypeDescription != "Warn": break # TODO: check if the unban date has passed
 
                     attempt = requests.post("https://usermoderation.roblox.com/v1/not-approved/reactivate", headers= headers)
                     if attempt.status_code == 200:
