@@ -10,10 +10,10 @@ from requests import session
 def unwarn(cookie:str):
     requests = session()
     requests.cookies.update({'.ROBLOSECURITY': cookie})
-    Token = requests.post('https://usermoderation.roblox.com/v1/not-approved/').headers['x-csrf-token'] # Grabs the x-csrf token
+    token = requests.post('https://usermoderation.roblox.com/v1/not-approved/').headers['x-csrf-token'] # Grabs the x-csrf token
     headers = {
                 'content-type': 'application/json',
-                'X-Csrf-Token': Token
+                'X-Csrf-Token': token
             }
     
     ban_data = requests.get("https://usermoderation.roblox.com/v1/not-approved/", headers= headers) 
