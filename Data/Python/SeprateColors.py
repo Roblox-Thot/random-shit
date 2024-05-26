@@ -12,8 +12,7 @@ def kmeans(data, k, max_iters=100):
         centroids = new_centroids
     return centroids, labels
 
-def simplify_image(image_path, num_colors):
-    img = Image.open(image_path)
+def simplify_image(img, num_colors):
     img_array = np.array(img)
     pixels = img_array.reshape(-1, 3)
     centroids, labels = kmeans(pixels, num_colors)
@@ -44,9 +43,11 @@ def separate_colors(original_image):
 
 if __name__ == "__main__":
     image_path:str = input("Image Path: ").replace("\"", "")
+    img = Image.open(image_path)
+    print(f'\nCurrent unique color count: {len(set(img.getdata()))}\n')
     color_count:int = int(input("How many colors to simplify to: "))
 
     simp = simplify_image(image_path,color_count)
     simp.show()
-    input("Press enter to separate the image into colors")
+    input("Press enter to separate the image")
     separate_colors(simp)
