@@ -1,6 +1,62 @@
 # random-shit
 Random scripts and shit that don't require their own repo
 
+## Python 
+
+<details>
+  <summary>AddEmails.py</summary>
+  <blockquote>
+    <a href="/data/AddEmails.py">Link</a><br>
+    Python script to add a random email to your Roblox account.<br>
+    You do require a domain with email forwarding to somewhere you can read all the emails.
+  </blockquote>
+</details>
+
+<details>
+  <summary>AvatarChangeLogs.py</summary>
+  <blockquote>
+    <a href="/data/AvatarChangeLogs.py">Link</a><br>
+    Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
+    <a href='https://i.imgur.com/lcu7yFf.png'><img height=420 src='https://i.imgur.com/lcu7yFf.png'></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary>DiscordRobloxConnection.py</summary>
+  <blockquote>
+    <a href="/data/DiscordRobloxConnection.py">Link</a><br>
+    Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
+    Recommended method is to use <a href=https://github.com/ic3w0lf22/Roblox-Account-Manager>ic3w0lf22/Roblox-Account-Manager</a> and click the "Open URL" with "http://127.0.0.1/"<br>
+    <a href='https://i.imgur.com/bXELV3Z.png'><img height=200 src='https://i.imgur.com/bXELV3Z.png'></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary>RobloxUnwarn.py</summary>
+  <blockquote>
+    <a href="/data/RobloxUnwarn.py">Link</a><br>
+    Python script to show a way to restore a Roblox account after a warn or waited out ban.
+  </blockquote>
+</details>
+
+<details>
+  <summary>SeprateColors.py</summary>
+  <blockquote>
+    <a href="/data/SeprateColors.py">Link</a><br>
+    Python script to simplify an image int X amount of colors then make an image for each layer.
+  </blockquote>
+</details>
+
+## Lua
+
+<details>
+  <summary>Badges.lua</summary>
+  <blockquote>
+    <a href="/data/Badges.lua">Link</a><br>
+    Roblox script to grab all the Roblox badge ids in the current game
+  </blockquote>
+</details>
+
 <details>
   <summary>GetDiscordFromPreMiD.lua</summary>
   <blockquote>
@@ -30,62 +86,22 @@ Random scripts and shit that don't require their own repo
 </details>
 
 <details>
-  <summary>Badges.lua</summary>
+  <summary>RunScript.lua</summary>
   <blockquote>
-    <a href="/data/Badges.lua">Link</a><br>
-    Roblox script to grab all the Roblox badge ids in the current game
+    <a href="/data/RunScript.lua">Link</a><br>
+    Roblox Studio plugin to allow running the currently open script<br>
+    Just place the Lua file in "%localappdata%/Roblox/Plugins"
   </blockquote>
 </details>
 
-<details>
-  <summary>AddEmails.py</summary>
-  <blockquote>
-    <a href="/data/AddEmails.py">Link</a><br>
-    Python script to add a random email to your Roblox account.<br>
-    You do require a domain with email forwarding to somewhere you can read all the emails.
-  </blockquote>
-</details>
+## Others
 
-<details>
-  <summary>RobloxUnwarn.py</summary>
-  <blockquote>
-    <a href="/data/RobloxUnwarn.py">Link</a><br>
-    Python script to show a way to restore a Roblox account after a warn or waited out ban.
-  </blockquote>
-</details>
-
-<details>
-  <summary>DiscordRobloxConnection.py</summary>
-  <blockquote>
-    <a href="/data/DiscordRobloxConnection.py">Link</a><br>
-    Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
-    Recommended method is to use <a href=https://github.com/ic3w0lf22/Roblox-Account-Manager>ic3w0lf22/Roblox-Account-Manager</a> and click the "Open URL" with "http://127.0.0.1/"<br>
-    <a href='https://i.imgur.com/bXELV3Z.png'><img height=200 src='https://i.imgur.com/bXELV3Z.png'></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary>AvatarChangeLogs.py</summary>
-  <blockquote>
-    <a href="/data/AvatarChangeLogs.py">Link</a><br>
-    Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
-    <a href='https://i.imgur.com/lcu7yFf.png'><img height=420 src='https://i.imgur.com/lcu7yFf.png'></a>
-  </blockquote>
-</details>
+<sup>for stuff that doesn't have much use/not enough of the script yet</sup>
 
 <details>
   <summary>DeleteRobloxKeys.ps1</summary>
   <blockquote>
     <a href="/data/DeleteRobloxKeys.ps1">Link</a><br>
     Powershell script to remove any Roblox keys from Windows Credential manager tab
-  </blockquote>
-</details>
-
-<details>
-  <summary>RunScript.lua</summary>
-  <blockquote>
-    <a href="/data/RunScript.lua">Link</a><br>
-    Roblox Studio plugin to allow running the currently open script<br>
-    Just place the Lua file in "%localappdata%/Roblox/Plugins"
   </blockquote>
 </details>
