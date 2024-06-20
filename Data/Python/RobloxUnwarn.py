@@ -7,19 +7,21 @@ from requests import session
 def unwarn(cookie:str):
     requests = session()
     requests.cookies.update({'.ROBLOSECURITY': cookie})
-    token = requests.post('https://usermoderation.roblox.com/v1/not-approved/reactivate').headers['x-csrf-token'] # Grabs the x-csrf token
-    headers = {
-                'content-type': 'application/json',
-                'X-Csrf-Token': token
-            }
-    
-    ban_data = requests.get("https://usermoderation.roblox.com/v1/not-approved", headers= headers) 
+    ban_data = requests.get("https://usermoderation.roblox.com/v1/not-approved")
+
     while True:
         try:
             if ban_data.status_code != 200: print("Error getting ban data");exit()
             
             ban_data = ban_data.json()
             if len(ban_data) > 0:
+
+                token = requests.post('https://usermoderation.roblox.com/v1/not-approved/reactivate').headers['x-csrf-token'] # Grabs the x-csrf token
+                headers = {
+                            'content-type': 'application/json',
+                            'X-Csrf-Token': token
+                        }
+                
                 punishmentTypeDescription = ban_data["punishmentTypeDescription"]
                 print(f'The account has been {punishmentTypeDescription}')
                 if punishmentTypeDescription != "Warn": break # TODO: check if the unban date has passed
