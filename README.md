@@ -95,6 +95,14 @@ Random scripts and shit that don't require their own repo
   </blockquote>
 </details>
 
+<details>
+  <summary>VulnCheck.lua + VulnCheckNul.lua</summary>
+  <blockquote>
+    <a href="/Data/Lua/VulnCheck.lua">VulnCheck.lua</a> <a href="/Data/Lua/VulnCheckNul.lua">VulnCheckNul.lua</a><br>
+    Runs a basic check for functions that can be abused, VulnCheckNul adds Null to the end of functions which can bypass some blocks.
+  </blockquote>
+</details>
+
 ## Others
 
 <sup>for stuff that doesn't have much use/not enough of the script yet</sup>
