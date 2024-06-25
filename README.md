@@ -53,7 +53,7 @@ Random scripts and shit that don't require their own repo
   <summary>Badges.lua</summary>
   <blockquote>
     <a href="/Data/Lua/Badges.lua">Link</a><br>
-    Roblox script to grab all the Roblox badge ids in the current game
+    Roblox script to grab all the Roblox badge ids in the current game.
   </blockquote>
 </details>
 
@@ -72,8 +72,8 @@ Random scripts and shit that don't require their own repo
   <summary>LogFilesInWorkspace.lua</summary>
   <blockquote>
     <a href="/Data/Others/WorkspaceLog/LogFilesInWorkspace.lua">Link</a><br>
-    Will save to file any whitelisted files to a file<br>
-    To export saved data use this <a href="/Data/Others/WorkspaceLog/ExportLoggedFiles.lua">RLua script</a> or <a href="/Data/Others/WorkspaceLog/ExportLoggedFiles.py">Python script</a><br>
+    Will save to file any whitelisted files to a file.<br>
+    To export saved data use this <a href="/Data/Others/WorkspaceLog/ExportLoggedFiles.lua">RLua script</a> or <a href="/Data/Others/WorkspaceLog/ExportLoggedFiles.py">Python script</a>.<br>
   </blockquote>
 </details>
 
@@ -90,7 +90,7 @@ Random scripts and shit that don't require their own repo
   <summary>RunScript.lua</summary>
   <blockquote>
     <a href="/Data/Lua/RunScript.lua">Link</a><br>
-    Roblox Studio plugin to allow running the currently open script<br>
+    Roblox Studio plugin to allow running the currently open script.<br>
     Just place the Lua file in "%localappdata%/Roblox/Plugins"
   </blockquote>
 </details>
@@ -105,12 +105,20 @@ Random scripts and shit that don't require their own repo
 
 ## Others
 
-<sup>for stuff that doesn't have much use/not enough of the script yet</sup>
+<sup>for stuff that doesn't have much use/not enough of the language yet</sup>
 
 <details>
   <summary>DeleteRobloxKeys.ps1</summary>
   <blockquote>
     <a href="/Data/Others/DeleteRobloxKeys.ps1">Link</a><br>
-    Powershell script to remove any Roblox keys from Windows Credential manager tab
+    Powershell script to remove any Roblox keys from Windows Credential manager tab.
+  </blockquote>
+</details>
+
+<details>
+  <summary>GetAuthTicket.js</summary>
+  <blockquote>
+    <a href="/Data/Others/GetAuthTicket.js">Link</a><br>
+    JavaScript to get a auth ticket on the Roblox website.
   </blockquote>
 </details>
