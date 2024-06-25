@@ -12,4 +12,3 @@
 
     console.log(ticket);
 })()
-t
