@@ -12,7 +12,7 @@ local pass, fail, unknown = 0, 0, 0
 
 local function Test(Value, Value1)
     task.spawn(function()
-        local Success, Error = pcall(game:GetService(Value)[Value1],game:GetService(Value))
+        local Success, Error = pcall(workspace.Parent:GetService(Value)[Value1],workspace.Parent:GetService(Value))
         if Error:match("missing or nil") then
             fail += 1
             warn(" ⛔ " .. Value1)
