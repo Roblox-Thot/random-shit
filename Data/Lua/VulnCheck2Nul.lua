@@ -30,75 +30,75 @@ local function Print(Value)
 end
 Print("HttpRbxApiService")
 
-Test("HttpRbxApiService"..prefix, "PostAsync")
-Test("HttpRbxApiService"..prefix, "PostAsyncFullUrl")
-Test("HttpRbxApiService"..prefix, "GetAsync")
-Test("HttpRbxApiService"..prefix, "GetAsyncFullUrl")
-Test("HttpRbxApiService"..prefix, "RequestAsync")
+Test("HttpRbxApiService"..prefix, "PostAsync"..prefix)
+Test("HttpRbxApiService"..prefix, "PostAsyncFullUrl"..prefix)
+Test("HttpRbxApiService"..prefix, "GetAsync"..prefix)
+Test("HttpRbxApiService"..prefix, "GetAsyncFullUrl"..prefix)
+Test("HttpRbxApiService"..prefix, "RequestAsync"..prefix)
 
 Print("HttpRbxApiService")
 
-Test("HttpRbxApiService"..prefix, "AddCoreScriptLocal")
+Test("HttpRbxApiService"..prefix, "AddCoreScriptLocal"..prefix)
 
 Print("HttpRbxApiService")
 
-Test("HttpRbxApiService"..prefix, "EmitHybridEvent")
-Test("BrowserService"..prefix, "ExecuteJavaScript")
-Test("BrowserService"..prefix, "OpenBrowserWindow")
-Test("BrowserService"..prefix, "OpenNativeOverlay")
-Test("BrowserService"..prefix, "ReturnToJavaScript")
-Test("BrowserService"..prefix, "SendCommand")
+Test("HttpRbxApiService"..prefix, "EmitHybridEvent"..prefix)
+Test("BrowserService"..prefix, "ExecuteJavaScript"..prefix)
+Test("BrowserService"..prefix, "OpenBrowserWindow"..prefix)
+Test("BrowserService"..prefix, "OpenNativeOverlay"..prefix)
+Test("BrowserService"..prefix, "ReturnToJavaScript"..prefix)
+Test("BrowserService"..prefix, "SendCommand"..prefix)
 
 Print("MarketplaceService")
 
-Test("MarketplaceService"..prefix, "GetRobuxBalance")
-Test("MarketplaceService"..prefix, "PerformPurchase")
-Test("MarketplaceService"..prefix, "PerformPurchaseV2")
-Test("MarketplaceService"..prefix, "PromptBundlePurchase")
-Test("MarketplaceService"..prefix, "PromptGamePassPurchase")
-Test("MarketplaceService"..prefix, "PromptProductPurchase")
-Test("MarketplaceService"..prefix, "PromptPurchase")
-Test("MarketplaceService"..prefix, "PromptRobloxPurchase")
-Test("MarketplaceService"..prefix, "PromptThirdPartyPurchase")
+Test("MarketplaceService"..prefix, "GetRobuxBalance"..prefix)
+Test("MarketplaceService"..prefix, "PerformPurchase"..prefix)
+Test("MarketplaceService"..prefix, "PerformPurchaseV2"..prefix)
+Test("MarketplaceService"..prefix, "PromptBundlePurchase"..prefix)
+Test("MarketplaceService"..prefix, "PromptGamePassPurchase"..prefix)
+Test("MarketplaceService"..prefix, "PromptProductPurchase"..prefix)
+Test("MarketplaceService"..prefix, "PromptPurchase"..prefix)
+Test("MarketplaceService"..prefix, "PromptRobloxPurchase"..prefix)
+Test("MarketplaceService"..prefix, "PromptThirdPartyPurchase"..prefix)
 
 Print("HttpService")
 
-Test("HttpService"..prefix, "RequestInternal")
+Test("HttpService"..prefix, "RequestInternal"..prefix)
 
-Test("GuiService"..prefix, "RequestInternal")
+Test("GuiService"..prefix, "RequestInternal"..prefix)
 
-Test("GuiService"..prefix, "OpenBrowserWindow")
-Test("GuiService"..prefix, "OpenNativeOverlay")
-
-Print("OpenCloudService")
-
-Test("OpenCloudService"..prefix, "HttpRequestAsync")
+Test("GuiService"..prefix, "OpenBrowserWindow"..prefix)
+Test("GuiService"..prefix, "OpenNativeOverlay"..prefix)
 
 Print("OpenCloudService")
 
-Test("CoreGui"..prefix, "TakeScreenshot")
-Test("CoreGui"..prefix, "ToggleRecording")
+Test("OpenCloudService"..prefix, "HttpRequestAsync"..prefix)
+
+Print("OpenCloudService")
+
+Test("CoreGui"..prefix, "TakeScreenshot"..prefix)
+Test("CoreGui"..prefix, "ToggleRecording"..prefix)
 
 Print("MessageBusService")
 
-Test("MessageBusService"..prefix, "Call")
-Test("MessageBusService"..prefix, "GetLast")
-Test("MessageBusService"..prefix, "GetMessageId")
-Test("MessageBusService"..prefix, "GetProtocolMethodRequestMessageId")
-Test("MessageBusService"..prefix, "GetProtocolMethodResponseMessageId")
-Test("MessageBusService"..prefix, "MakeRequest")
-Test("MessageBusService"..prefix, "Publish")
-Test("MessageBusService"..prefix, "PublishProtocolMethodRequest")
-Test("MessageBusService"..prefix, "PublishProtocolMethodResponse")
-Test("MessageBusService"..prefix, "Subscribe")
-Test("MessageBusService"..prefix, "SubscribeToProtocolMethodRequest")
-Test("MessageBusService"..prefix, "SubscribeToProtocolMethodResponse")
+Test("MessageBusService"..prefix, "Call"..prefix)
+Test("MessageBusService"..prefix, "GetLast"..prefix)
+Test("MessageBusService"..prefix, "GetMessageId"..prefix)
+Test("MessageBusService"..prefix, "GetProtocolMethodRequestMessageId"..prefix)
+Test("MessageBusService"..prefix, "GetProtocolMethodResponseMessageId"..prefix)
+Test("MessageBusService"..prefix, "MakeRequest"..prefix)
+Test("MessageBusService"..prefix, "Publish"..prefix)
+Test("MessageBusService"..prefix, "PublishProtocolMethodRequest"..prefix)
+Test("MessageBusService"..prefix, "PublishProtocolMethodResponse"..prefix)
+Test("MessageBusService"..prefix, "Subscribe"..prefix)
+Test("MessageBusService"..prefix, "SubscribeToProtocolMethodRequest"..prefix)
+Test("MessageBusService"..prefix, "SubscribeToProtocolMethodResponse"..prefix)
 
 Print("DataModel")
 
-Test("DataModel"..prefix, "Load")
-Test("DataModel"..prefix, "OpenScreenshotsFolder")
-Test("CoreGui"..prefix, "OpenVideosFolder")
+Test("DataModel"..prefix, "Load"..prefix)
+Test("DataModel"..prefix, "OpenScreenshotsFolder"..prefix)
+Test("CoreGui"..prefix, "OpenVideosFolder"..prefix)
 
 Print("OmniRecommendationsService")
 
