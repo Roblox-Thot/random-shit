@@ -1,6 +1,7 @@
 const scriptTags = Array.from(document.querySelectorAll('script'));
 const scriptSrcs = scriptTags.map(tag=>tag.src).filter(i=>i);
 const SOURCE_MAPPING_URL = "//# sourceMappingURL=";
+const newtab = false; // Opens a new tab with all the urls
 
 const maybeSourceMappingURLs = await Promise.allSettled(scriptSrcs.map(async(src)=>{
     if(src.includes('hsts.js')) return;
@@ -29,6 +30,12 @@ const maybeSourceMappingURLs = await Promise.allSettled(scriptSrcs.map(async(src
     return new URL(sourceMappingURL,basePath).href;
 }
 ));
-console.log(maybeSourceMappingURLs)
+
 const sourceMappingURLs = maybeSourceMappingURLs.filter(entry=>entry.status === 'fulfilled').map(entry=>entry.value);
 console.log(sourceMappingURLs.join("\n"));
+
+if (newtab){
+    var tab = window.open('about:blank', '_blank');
+    tab.document.write(sourceMappingURLs.join("<br>"));
+    tab.document.close();
+}
