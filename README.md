@@ -124,6 +124,15 @@ Random scripts and shit that don't require their own repo
 </details>
 
 <details>
+  <summary>RobloxSourceMaps.js</summary>
+  <blockquote>
+    <a href="/Data/Others/RobloxSourceMaps.js">Link</a><br>
+    JavaScript to grab all source maps from Roblox.com.<br>
+    To use just run it in a browser's console.
+  </blockquote>
+</details>
+
+<details>
   <summary>Vencord.bat</summary>
   <blockquote>
     <a href="/Data/Others/Vencord.bat">Link</a><br>
