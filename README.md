@@ -116,6 +116,25 @@ Random scripts and shit that don't require their own repo
 </details>
 
 <details>
+  <summary>Equicord.bat</summary>
+  <blockquote>
+    <a href="/Data/Others/Equicord.bat">Link</a><br>
+    Batch script to download and run the Equicord CLI installer.<br>
+    curl https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Others/Equicord.bat | cmd
+  </blockquote>
+</details>
+
+<details>
+  <summary>Equicord.ps1</summary>
+  <blockquote>
+    <a href="/Data/Others/Equicord.ps1">Link</a><br>
+    Powershell script to download and run the Equicord CLI installer..<br>
+    irm "https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Others/Equicord.ps1" | iex
+  </blockquote>
+</details>
+
+
+<details>
   <summary>GetAuthTicket.js</summary>
   <blockquote>
     <a href="/Data/Others/GetAuthTicket.js">Link</a><br>
