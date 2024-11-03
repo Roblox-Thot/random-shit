@@ -1,5 +1,5 @@
 # random-shit
-Random scripts and shit that don't require their own repo
+Random scripts and shit that don't require their own repo but I'm too lazy to use gist.
 
 ## Python 
 
