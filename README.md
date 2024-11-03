@@ -133,12 +133,19 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
   </blockquote>
 </details>
 
-
 <details>
   <summary>GetAuthTicket.js</summary>
   <blockquote>
     <a href="/Data/Others/GetAuthTicket.js">Link</a><br>
     JavaScript to get a auth ticket on the Roblox website.
+  </blockquote>
+</details>
+
+<details>
+  <summary>GetAuthTicketRoblox.js</summary>
+  <blockquote>
+    <a href="/Data/Others/GetAuthTicketRoblox.js">Link</a><br>
+    JavaScript that gets the auth ticket but uses the Roblox library loaded when the site loads.
   </blockquote>
 </details>
 
