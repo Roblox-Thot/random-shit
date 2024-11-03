@@ -4,7 +4,6 @@ const SOURCE_MAPPING_URL = "//# sourceMappingURL=";
 const newtab = false; // Opens a new tab with all the urls
 
 const maybeSourceMappingURLs = await Promise.allSettled(scriptSrcs.map(async(src)=>{
-    if(src.includes('hsts.js')) return;
     const code = await fetch(src).then(resp=>resp.text());
 
     if (!code.includes(SOURCE_MAPPING_URL)) {
