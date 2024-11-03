@@ -1,12 +1,11 @@
 const scriptTags = Array.from(document.querySelectorAll('script'));
 const scriptSrcs = scriptTags.map(tag=>tag.src).filter(i=>i);
-const SOURCE_MAPPING_URL = "//# sourceMappingURL=";
 const newtab = false; // Opens a new tab with all the urls
 
 const maybeSourceMappingURLs = await Promise.allSettled(scriptSrcs.map(async(src)=>{
     const code = await fetch(src).then(resp=>resp.text());
 
-    if (!code.includes(SOURCE_MAPPING_URL)) {
+    if (!code.includes("//# sourceMappingURL=")) {
         throw new Error('This scripts don\'t have sourcemap');
     }
 
