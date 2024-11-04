@@ -59,7 +59,7 @@
 
     GM_registerMenuCommand(`SM Count: ${newArray.length}`, function() {
         document.write('<style>body{background-color: black;color:white;}</style>')
-        document.write(sourceMappingURLs.join("<br>"))
+        document.write(newArray.join("<br>"))
     });
 
     GM_registerMenuCommand(`Clear and refresh`, function() {
