@@ -6,7 +6,7 @@
 // @author       RobloxThot
 // @match        https://*.roblox.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=roblox.com
-// @run-at      document-idle
+// @run-at       document-idle
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_registerMenuCommand
@@ -58,6 +58,7 @@
     GM_setValue('sourceMaps', JSON.stringify(newArray));
 
     GM_registerMenuCommand(`SM Count: ${newArray.length}`, function() {
+        document.write('<style>body{background-color: black;color:white;}</style>')
         document.write(sourceMappingURLs.join("<br>"))
     });
 
