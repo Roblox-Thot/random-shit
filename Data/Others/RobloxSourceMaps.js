@@ -1,5 +1,6 @@
 const scriptTags = Array.from(document.querySelectorAll('script'));
 const scriptSrcs = scriptTags.map(tag=>tag.src).filter(i=>i);
+const pageHref = window.location.href;
 const newtab = false; // Opens a new tab with all the urls
 
 const maybeSourceMappingURLs = await Promise.allSettled(scriptSrcs.map(async(src)=>{
@@ -8,8 +9,6 @@ const maybeSourceMappingURLs = await Promise.allSettled(scriptSrcs.map(async(src
     if (!code.includes("//# sourceMappingURL=")) {
         throw new Error('This scripts don\'t have sourcemap');
     }
-
-    const srcUrl = new URL(window.location.href);
 
     let sourceMappingURL = code.match(/\/\/# sourceMappingURL=(.*\.map)/)[1];
     if (sourceMappingURL.includes("http")) {
@@ -21,11 +20,11 @@ const maybeSourceMappingURLs = await Promise.allSettled(scriptSrcs.map(async(src
     }
 
     if (sourceMappingURL.startsWith("/")) {
-        return new URL(sourceMappingURL,window.location.href).href;
+        return new URL(sourceMappingURL, pageHref).href;
     }
 
-    const basePath = new URL(src,window.location.href).href;
-    return new URL(sourceMappingURL,basePath).href;
+    const basePath = new URL(src, pageHref).href;
+    return new URL(sourceMappingURL, basePath).href;
 }
 ));
 
