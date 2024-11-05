@@ -159,9 +159,9 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
 </details>
 
 <details>
-  <summary>SourceMapScraper.js</summary>
+  <summary>SourceMapGrabber.js</summary>
   <blockquote>
-    <a href="/Data/Others/SourceMapScraper.js">Link</a><br>
+    <a href="/Data/Others/SourceMapGrabber.js">Link</a><br>
     Tamper monkey script to scrape the source map links off pages off Roblox and add a button to the TM extention popout to clear or print them to page.<br>
     (Shit but works :tm:)
   </blockquote>

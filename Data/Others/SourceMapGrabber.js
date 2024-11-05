@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Source Map Scraper
+// @name         Source Map Grabber
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-04
-// @description  Grabs source maps from pages
+// @version      2024-11-05
+// @description  Grabs source maps from page
 // @author       RobloxThot
 // @match        https://*.roblox.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=roblox.com
