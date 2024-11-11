@@ -115,15 +115,6 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
   </blockquote>
 </details>
 
-<!-- <details>
-  <summary>Equicord.bat</summary>
-  <blockquote>
-    <a href="/Data/Others/Equicord.bat">Link</a><br>
-    Batch script to download and run the Equicord CLI installer.<br>
-    curl https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Others/Equicord.bat | cmd
-  </blockquote>
-</details> -->
-
 <details>
   <summary>Equicord.ps1</summary>
   <blockquote>
@@ -166,15 +157,6 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
     (Shit but works :tm:)
   </blockquote>
 </details>
-
-<!-- <details>
-  <summary>Vencord.bat</summary>
-  <blockquote>
-    <a href="/Data/Others/Vencord.bat">Link</a><br>
-    Batch script to download and run the Vencord CLI installer.<br>
-    curl https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Others/Vencord.bat | cmd
-  </blockquote>
-</details> -->
 
 <details>
   <summary>Vencord.ps1</summary>
