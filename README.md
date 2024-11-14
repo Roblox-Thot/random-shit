@@ -153,8 +153,8 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
   <summary>SourceMapGrabber.user.js</summary>
   <blockquote>
     <a href="/Data/Others/SourceMapGrabber.user.js">Link</a><br>
-    Tamper monkey script to scrape the source map links off the current Roblox page and add a button to the extention popout to print them to page.<br>
-    (Shit but works :tm:)
+    Tamper monkey script to scrape the source map links off the current page and add a button to the extention popout to print them to page.<br>
+    (Shit but works some of the time)
   </blockquote>
 </details>
 

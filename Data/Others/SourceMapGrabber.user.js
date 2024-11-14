@@ -2,9 +2,9 @@
 // @name         Source Map Grabber
 // @namespace    http://tampermonkey.net/
 // @version      2024-11-14
-// @description  Grabs source maps from page
+// @description  Grabs source maps from most(tm) sites
 // @author       RobloxThot
-// @match        https://*.roblox.com/*
+// @match        *://*/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=roblox.com
 // @run-at       document-idle
 // @grant        GM_registerMenuCommand
