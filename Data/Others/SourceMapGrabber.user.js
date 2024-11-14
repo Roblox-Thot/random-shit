@@ -13,7 +13,7 @@
 (async function() {
     'use strict';
 
-    if (window.top == window.self)  {
+    if (window.top == window.self) {
         const merge = (a, b, predicate = (a, b) => a === b) => { //https://stackoverflow.com/a/1584377
             const c = [...a];
             b.forEach((bItem) => (c.some((cItem) => predicate(bItem, cItem)) ? null : c.push(bItem)))
@@ -50,10 +50,7 @@
 
         const sourceMappingURLs = maybeSourceMappingURLs.filter(entry=>entry.status === 'fulfilled').map(entry=>entry.value);
 
-        let storedArrayString = GM_getValue('sourceMaps', '[]');
-        let myArray = JSON.parse(storedArrayString);
-
-        let newArray = merge(sourceMappingURLs,myArray);
+        let newArray = sourceMappingURLs;
 
         GM_registerMenuCommand(`SM Count: ${newArray.length}`, function() {
             document.write('<style>body{background-color: black;color:white;}</style>')
