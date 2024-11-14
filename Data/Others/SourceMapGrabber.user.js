@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Source Map Grabber
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-05
+// @version      2024-11-14
 // @description  Grabs source maps from page
 // @author       RobloxThot
 // @match        https://*.roblox.com/*
@@ -53,15 +53,9 @@
     let myArray = JSON.parse(storedArrayString);
 
     let newArray = merge(sourceMappingURLs,myArray);
-    GM_setValue('sourceMaps', JSON.stringify(newArray));
 
     GM_registerMenuCommand(`SM Count: ${newArray.length}`, function() {
         document.write('<style>body{background-color: black;color:white;}</style>')
         document.write(newArray.join("<br>"))
-    });
-
-    GM_registerMenuCommand(`Clear and refresh`, function() {
-        GM_setValue('sourceMaps', '[]');
-        location.reload();
     });
 })();
