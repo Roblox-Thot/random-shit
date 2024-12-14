@@ -108,6 +108,14 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
 <sup>for stuff that doesn't have much use/not enough of the language yet</sup>
 
 <details>
+  <summary>CloudflareTurnstile.user.js</summary>
+  <blockquote>
+    <a href="/Data/Others/CloudflareTurnstile.user.js">Link</a><br>
+    Auto clicks the Cloudflare turnstile checkbox once it loads to bypass it.
+  </blockquote>
+</details>
+
+<details>
   <summary>DeleteRobloxKeys.ps1</summary>
   <blockquote>
     <a href="/Data/Others/DeleteRobloxKeys.ps1">Link</a><br>
