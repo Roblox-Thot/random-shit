@@ -1,5 +1,88 @@
 # random-shit
-Random scripts and shit that don't require their own repo but I'm too lazy to use gist.
+Random scripts and shit that don't require their own repo but I don't want to use gist since it's not great.
+
+## Javascript
+
+<details>
+  <summary>GetAuthTicket.js</summary>
+  <blockquote>
+    <a href="/Data/Javascript/GetAuthTicket.js">Link</a><br>
+    JavaScript to get a auth ticket on the Roblox website.
+  </blockquote>
+</details>
+
+<details>
+  <summary>GetAuthTicketRoblox.js</summary>
+  <blockquote>
+    <a href="/Data/Javascript/GetAuthTicketRoblox.js">Link</a><br>
+    JavaScript that gets the auth ticket but uses the Roblox library loaded when the site loads.
+  </blockquote>
+</details>
+
+<details>
+  <summary>RobloxSourceMaps.js</summary>
+  <blockquote>
+    <a href="/Data/Javascript/RobloxSourceMaps.js">Link</a><br>
+    JavaScript to grab all source maps from Roblox.com.<br>
+    To use just run it in a browser's console.
+  </blockquote>
+</details>
+
+## Lua
+
+<details>
+  <summary>Badges.lua</summary>
+  <blockquote>
+    <a href="/Data/Lua/Badges.lua">Link</a><br>
+    Roblox script to grab all the Roblox badge ids in the current game.
+  </blockquote>
+</details>
+
+<details>
+  <summary>GetDiscordFromPreMiD.lua</summary>
+  <blockquote>
+    <a href="/Data/Lua/GetDiscordFromPreMiD.lua">Link</a><br>
+    <b>The PreMiD app is no longer used so this isn't useful</b><br><br>
+    If the user has PreMiD installed then it will print/grab some user info.<br>
+    Example:<br>
+    <img width=690 alt="image" src="https://user-images.githubusercontent.com/67937010/208335348-84c2de5d-c9a8-42f1-832a-af556241ccd8.png">
+  </blockquote>
+</details>
+
+<details>
+  <summary>LogFilesInWorkspace.lua</summary>
+  <blockquote>
+    <a href="/Data/Lua/WorkspaceLog/LogFilesInWorkspace.lua">Link</a><br>
+    Will save to file any whitelisted files to a file.<br>
+    To export saved data use this <a href="/Data/Lua/WorkspaceLog/ExportLoggedFiles.lua">RLua script</a> or <a href="/Data/Lua/WorkspaceLog/ExportLoggedFiles.py">Python script</a>.<br>
+  </blockquote>
+</details>
+
+<details>
+  <summary>PiShock.lua</summary>
+  <blockquote>
+    <a href="/Libraries/PiShock.lua">Link</a><br>
+    Library for PiShock<br>
+    <img height=420 src="https://github.com/Roblox-Thot/random-shit/assets/67937010/38e66160-8e98-4f05-8d98-ec04bb777873">
+  </blockquote>
+</details>
+
+<details>
+  <summary>RunScript.lua</summary>
+  <blockquote>
+    <a href="/Data/Lua/RunScript.lua">Link</a><br>
+    Roblox Studio plugin to allow running the currently open script.<br>
+    Just place the Lua file in "%localappdata%/Roblox/Plugins"
+  </blockquote>
+</details>
+
+<details>
+  <summary>VulnCheck.lua + VulnCheckNul.lua</summary>
+  <blockquote>
+    <a href="/Data/Lua/VulnCheck.lua">VulnCheck.lua</a> <a href="/Data/Lua/VulnCheckNul.lua">VulnCheckNul.lua</a><br>
+    Runs a basic check for functions that can be abused, VulnCheckNul adds Null to the end of functions which can bypass some blocks.
+  </blockquote>
+</details>
 
 ## Python 
 
@@ -47,65 +130,7 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
   </blockquote>
 </details>
 
-## Lua
-
-<details>
-  <summary>Badges.lua</summary>
-  <blockquote>
-    <a href="/Data/Lua/Badges.lua">Link</a><br>
-    Roblox script to grab all the Roblox badge ids in the current game.
-  </blockquote>
-</details>
-
-<details>
-  <summary>GetDiscordFromPreMiD.lua</summary>
-  <blockquote>
-    <a href="/Data/Lua/GetDiscordFromPreMiD.lua">Link</a><br>
-    <b>The PreMiD app is no longer used so this isn't useful</b><br><br>
-    If the user has PreMiD installed then it will print/grab some user info.<br>
-    Example:<br>
-    <img width=690 alt="image" src="https://user-images.githubusercontent.com/67937010/208335348-84c2de5d-c9a8-42f1-832a-af556241ccd8.png">
-  </blockquote>
-</details>
-
-<details>
-  <summary>LogFilesInWorkspace.lua</summary>
-  <blockquote>
-    <a href="/Data/Others/WorkspaceLog/LogFilesInWorkspace.lua">Link</a><br>
-    Will save to file any whitelisted files to a file.<br>
-    To export saved data use this <a href="/Data/Others/WorkspaceLog/ExportLoggedFiles.lua">RLua script</a> or <a href="/Data/Others/WorkspaceLog/ExportLoggedFiles.py">Python script</a>.<br>
-  </blockquote>
-</details>
-
-<details>
-  <summary>PiShock.lua</summary>
-  <blockquote>
-    <a href="/Libraries/PiShock.lua">Link</a><br>
-    Library for PiShock<br>
-    <img height=420 src="https://github.com/Roblox-Thot/random-shit/assets/67937010/38e66160-8e98-4f05-8d98-ec04bb777873">
-  </blockquote>
-</details>
-
-<details>
-  <summary>RunScript.lua</summary>
-  <blockquote>
-    <a href="/Data/Lua/RunScript.lua">Link</a><br>
-    Roblox Studio plugin to allow running the currently open script.<br>
-    Just place the Lua file in "%localappdata%/Roblox/Plugins"
-  </blockquote>
-</details>
-
-<details>
-  <summary>VulnCheck.lua + VulnCheckNul.lua</summary>
-  <blockquote>
-    <a href="/Data/Lua/VulnCheck.lua">VulnCheck.lua</a> <a href="/Data/Lua/VulnCheckNul.lua">VulnCheckNul.lua</a><br>
-    Runs a basic check for functions that can be abused, VulnCheckNul adds Null to the end of functions which can bypass some blocks.
-  </blockquote>
-</details>
-
-## Others
-
-<sup>for stuff that doesn't have much use/not enough of the language yet</sup>
+## Userscripts
 
 <details>
   <summary>CloudflareTurnstile.user.js</summary>
@@ -114,6 +139,19 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
     Auto clicks the Cloudflare turnstile checkbox once it loads to bypass it.
   </blockquote>
 </details>
+
+<details>
+  <summary>SourceMapGrabber.user.js</summary>
+  <blockquote>
+    <a href="/Data/Others/SourceMapGrabber.user.js">Link</a><br>
+    Tamper monkey script to scrape the source map links off the current page and add a button to the extention popout to print them to page.<br>
+    (Shit but works some of the time)
+  </blockquote>
+</details>
+
+## Others
+
+<sup>for stuff that doesn't have much use/not enough of the language yet</sup>
 
 <details>
   <summary>DeleteRobloxKeys.ps1</summary>
@@ -129,40 +167,6 @@ Random scripts and shit that don't require their own repo but I'm too lazy to us
     <a href="/Data/Others/Equicord.ps1">Link</a><br>
     Powershell script to download and run the Equicord CLI installer..<br>
     irm "https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Others/Equicord.ps1" | iex
-  </blockquote>
-</details>
-
-<details>
-  <summary>GetAuthTicket.js</summary>
-  <blockquote>
-    <a href="/Data/Others/GetAuthTicket.js">Link</a><br>
-    JavaScript to get a auth ticket on the Roblox website.
-  </blockquote>
-</details>
-
-<details>
-  <summary>GetAuthTicketRoblox.js</summary>
-  <blockquote>
-    <a href="/Data/Others/GetAuthTicketRoblox.js">Link</a><br>
-    JavaScript that gets the auth ticket but uses the Roblox library loaded when the site loads.
-  </blockquote>
-</details>
-
-<details>
-  <summary>RobloxSourceMaps.js</summary>
-  <blockquote>
-    <a href="/Data/Others/RobloxSourceMaps.js">Link</a><br>
-    JavaScript to grab all source maps from Roblox.com.<br>
-    To use just run it in a browser's console.
-  </blockquote>
-</details>
-
-<details>
-  <summary>SourceMapGrabber.user.js</summary>
-  <blockquote>
-    <a href="/Data/Others/SourceMapGrabber.user.js">Link</a><br>
-    Tamper monkey script to scrape the source map links off the current page and add a button to the extention popout to print them to page.<br>
-    (Shit but works some of the time)
   </blockquote>
 </details>
 
