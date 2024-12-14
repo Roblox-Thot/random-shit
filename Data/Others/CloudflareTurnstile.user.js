@@ -27,7 +27,7 @@
         const scanning = setInterval(search, 1000);
         function search() {
             const inputs = shadowRoot.querySelectorAll('input[type="checkbox"]');
-            console.log(inputs);
+            // While there shouldn't be more then one it prevents issues just incase
             inputs.forEach(function(input) {
                 input.click();
 
