@@ -84,6 +84,34 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+## Powershell
+
+<details>
+  <summary>DeleteRobloxKeys.ps1</summary>
+  <blockquote>
+    <a href="/Data/Powershell/DeleteRobloxKeys.ps1">Source link</a><br>
+    Powershell script to remove any Roblox keys from Windows Credential manager tab.
+  </blockquote>
+</details>
+
+<details>
+  <summary>Equicord.ps1</summary>
+  <blockquote>
+    <a href="/Data/Powershell/Equicord.ps1">Source link</a><br>
+    Powershell script to download and run the Equicord CLI installer..<br>
+    irm "https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Powershell/Equicord.ps1" | iex
+  </blockquote>
+</details>
+
+<details>
+  <summary>Vencord.ps1</summary>
+  <blockquote>
+    <a href="/Data/Powershell/Vencord.ps1">Source link</a><br>
+    Powershell script to download and run the Vencord CLI installer..<br>
+    irm "https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Powershell/Vencord.ps1" | iex
+  </blockquote>
+</details>
+
 ## Python 
 
 <details>
@@ -148,35 +176,5 @@ Random scripts and shit that don't require their own repo but I don't want to us
     <a href="https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Userscripts/SourceMapGrabber.user.js">Install</a><br>
     Tamper monkey script to scrape the source map links off the current page and add a button to the extention popout to print them to page.<br>
     (Shit but works some of the time)
-  </blockquote>
-</details>
-
-## Others
-
-<sup>for stuff that doesn't have much use/not enough of the language yet</sup>
-
-<details>
-  <summary>DeleteRobloxKeys.ps1</summary>
-  <blockquote>
-    <a href="/Data/Others/DeleteRobloxKeys.ps1">Source link</a><br>
-    Powershell script to remove any Roblox keys from Windows Credential manager tab.
-  </blockquote>
-</details>
-
-<details>
-  <summary>Equicord.ps1</summary>
-  <blockquote>
-    <a href="/Data/Others/Equicord.ps1">Source link</a><br>
-    Powershell script to download and run the Equicord CLI installer..<br>
-    irm "https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Others/Equicord.ps1" | iex
-  </blockquote>
-</details>
-
-<details>
-  <summary>Vencord.ps1</summary>
-  <blockquote>
-    <a href="/Data/Others/Vencord.ps1">Source link</a><br>
-    Powershell script to download and run the Vencord CLI installer..<br>
-    irm "https://raw.githubusercontent.com/Roblox-Thot/random-shit/refs/heads/main/Data/Others/Vencord.ps1" | iex
   </blockquote>
 </details>
