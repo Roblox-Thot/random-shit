@@ -14,12 +14,6 @@
     'use strict';
 
     if (window.top == window.self) {
-        const merge = (a, b, predicate = (a, b) => a === b) => { //https://stackoverflow.com/a/1584377
-            const c = [...a];
-            b.forEach((bItem) => (c.some((cItem) => predicate(bItem, cItem)) ? null : c.push(bItem)))
-            return c;
-        }
-
         const scriptTags = Array.from(document.querySelectorAll('script'));
         const scriptSrcs = scriptTags.map(tag=>tag.src).filter(i=>i);
 
