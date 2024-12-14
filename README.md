@@ -163,8 +163,8 @@ Random scripts and shit that don't require their own repo but I don't want to us
 <details>
   <summary>CloudflareTurnstile.user.js</summary>
   <blockquote>
-    <a href="Data/Userscripts/CloudflareTurnstile.user.js">Source link</a><br>
-    <a href="https://roblox-thot.github.io/random-shit/Data/Userscripts/CloudflareTurnstile.user.js">Install</a><br>
+    <a href="Data/Javascript/Userscripts/CloudflareTurnstile.user.js">Source link</a><br>
+    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/CloudflareTurnstile.user.js">Install</a><br>
     Auto clicks the Cloudflare turnstile checkbox once it loads to bypass it.
   </blockquote>
 </details>
@@ -172,8 +172,8 @@ Random scripts and shit that don't require their own repo but I don't want to us
 <details>
   <summary>SourceMapGrabber.user.js</summary>
   <blockquote>
-    <a href="Data/Userscripts/SourceMapGrabber.user.js">Source link</a><br>
-    <a href="https://roblox-thot.github.io/random-shit/Data/Userscripts/SourceMapGrabber.user.js">Install</a><br>
+    <a href="Data/Javascript/Userscripts/SourceMapGrabber.user.js">Source link</a><br>
+    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/SourceMapGrabber.user.js">Install</a><br>
     Tamper monkey script to scrape the source map links off the current page and add a button to the extention popout to print them to page.<br>
     (Shit but works some of the time)
   </blockquote>
