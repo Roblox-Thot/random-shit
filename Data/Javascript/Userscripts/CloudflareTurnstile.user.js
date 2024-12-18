@@ -29,10 +29,13 @@
             const inputs = shadowRoot.querySelectorAll('input[type="checkbox"]');
             // While there shouldn't be more then one it prevents issues just incase
             inputs.forEach(function(input) {
-                input.click();
-
                 // Stops scanning
                 clearInterval(scanning);
+                
+                setTimeout(function() {
+                    input.click();
+                }, 100);
+
             });
         }
 
