@@ -12,4 +12,3 @@ reg delete HKCU\Software\Roblox\RobloxStudio\LoggedInUsersStore /f
 reg delete HKCU\Software\Roblox\RobloxStudio\RobloxStudioLaunchTrackingGuid /f
 reg delete HKCU\Software\Roblox\RobloxStudio\Retention /f
 reg delete HKCU\Software\Roblox\Retention /f
-
