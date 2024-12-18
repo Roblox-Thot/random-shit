@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cloudflare Turnstile Autoclick
 // @namespace    http://cloudflare.com/
-// @version      2024-12-14
+// @version      2024-12-18
 // @description  autoclicks the CF turnstiles
 // @author       Roblox-Thot
 // @match        https://challenges.cloudflare.com/*
