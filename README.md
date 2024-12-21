@@ -170,6 +170,15 @@ Random scripts and shit that don't require their own repo but I don't want to us
 </details>
 
 <details>
+  <summary>MinibloxAdblock.user.js</summary>
+  <blockquote>
+    <a href="Data/Javascript/Userscripts/MinibloxAdblock.user.js">Source link</a><br>
+    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/MinibloxAdblock.user.js">Install</a><br>
+    Tells Miniblox to disable ads then stats running it, won't be updated if they ever fix it though.
+  </blockquote>
+</details>
+
+<details>
   <summary>SourceMapGrabber.user.js</summary>
   <blockquote>
     <a href="Data/Javascript/Userscripts/SourceMapGrabber.user.js">Source link</a><br>
