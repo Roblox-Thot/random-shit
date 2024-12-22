@@ -3,6 +3,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
 
 ## Javascript
 
+<!-- GetAuthTicket.js -->
 <details>
   <summary>GetAuthTicket.js</summary>
   <blockquote>
@@ -11,6 +12,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- GetAuthTicketRoblox.js -->
 <details>
   <summary>GetAuthTicketRoblox.js</summary>
   <blockquote>
@@ -19,6 +21,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- RobloxSourceMaps.js -->
 <details>
   <summary>RobloxSourceMaps.js</summary>
   <blockquote>
@@ -30,6 +33,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
 
 ## Lua
 
+<!-- Badges.lua -->
 <details>
   <summary>Badges.lua</summary>
   <blockquote>
@@ -38,6 +42,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- GetDiscordFromPreMiD.lua -->
 <details>
   <summary>GetDiscordFromPreMiD.lua</summary>
   <blockquote>
@@ -49,6 +54,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- LogFilesInWorkspace.lua -->
 <details>
   <summary>LogFilesInWorkspace.lua</summary>
   <blockquote>
@@ -58,6 +64,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- PiShock.lua -->
 <details>
   <summary>PiShock.lua</summary>
   <blockquote>
@@ -67,6 +74,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- RunScript.lua -->
 <details>
   <summary>RunScript.lua</summary>
   <blockquote>
@@ -76,6 +84,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- VulnCheck.lua + VulnCheckNul.lua -->
 <details>
   <summary>VulnCheck.lua + VulnCheckNul.lua</summary>
   <blockquote>
@@ -86,6 +95,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
 
 ## Powershell
 
+<!-- DeleteRobloxKeys.ps1 -->
 <details>
   <summary>DeleteRobloxKeys.ps1</summary>
   <blockquote>
@@ -94,6 +104,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- Equicord.ps1 -->
 <details>
   <summary>Equicord.ps1</summary>
   <blockquote>
@@ -103,6 +114,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- Vencord.ps1 -->
 <details>
   <summary>Vencord.ps1</summary>
   <blockquote>
@@ -114,6 +126,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
 
 ## Python 
 
+<!-- AddEmails.py -->
 <details>
   <summary>AddEmails.py</summary>
   <blockquote>
@@ -123,6 +136,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- AvatarChangeLogs.py -->
 <details>
   <summary>AvatarChangeLogs.py</summary>
   <blockquote>
@@ -132,6 +146,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- DiscordRobloxConnection.py -->
 <details>
   <summary>DiscordRobloxConnection.py</summary>
   <blockquote>
@@ -142,6 +157,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- RobloxUnwarn.py -->
 <details>
   <summary>RobloxUnwarn.py</summary>
   <blockquote>
@@ -150,6 +166,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- SeprateColors.py -->
 <details>
   <summary>SeprateColors.py</summary>
   <blockquote>
@@ -160,6 +177,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
 
 ## Userscripts
 
+<!-- CloudflareTurnstile.user.js -->
 <details>
   <summary>CloudflareTurnstile.user.js</summary>
   <blockquote>
@@ -169,6 +187,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- MinibloxAdblock.user.js -->
 <details>
   <summary>MinibloxAdblock.user.js</summary>
   <blockquote>
@@ -178,6 +197,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- ReCaptchaClicker.user.js -->
 <details>
   <summary>ReCaptchaClicker.user.js</summary>
   <blockquote>
@@ -187,6 +207,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- SourceMapGrabber.user.js -->
 <details>
   <summary>SourceMapGrabber.user.js</summary>
   <blockquote>
