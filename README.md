@@ -163,9 +163,9 @@ Random scripts and shit that don't require their own repo but I don't want to us
 <details>
   <summary>CloudflareTurnstile.user.js</summary>
   <blockquote>
-    <a href="Data/Javascript/Userscripts/CloudflareTurnstile.user.js">Source link</a><br>
-    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/CloudflareTurnstile.user.js">Install</a><br>
-    Auto clicks the Cloudflare turnstile checkbox once it loads to bypass it.
+    <a href="Data/Javascript/Userscripts/CFTurnstileClicker.user.js">Source link</a><br>
+    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/CFTurnstileClicker.user.js">Install</a><br>
+    Auto clicks the Cloudflare turnstile checkbox once it loads to auto solve it.
   </blockquote>
 </details>
 
@@ -175,6 +175,15 @@ Random scripts and shit that don't require their own repo but I don't want to us
     <a href="Data/Javascript/Userscripts/MinibloxAdblock.user.js">Source link</a><br>
     <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/MinibloxAdblock.user.js">Install</a><br>
     Tells Miniblox to disable ads then stats running it, won't be updated if they ever fix it though.
+  </blockquote>
+</details>
+
+<details>
+  <summary>ReCaptchaClicker.user.js</summary>
+  <blockquote>
+    <a href="Data/Javascript/Userscripts/ReCaptchaClicker.user.js">Source link</a><br>
+    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/ReCaptchaClicker.user.js">Install</a><br>
+    Auto clicks the ReCaptcha checkbox once it loads to solve it, but may not be as nice compaired to CF Turnstile since there may be a required solve.
   </blockquote>
 </details>
 
