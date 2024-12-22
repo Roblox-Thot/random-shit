@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Ads
+// @name         Miniblox Adblock
 // @namespace    http://Roblox-Thot.github.io
-// @version      2024-10-26-3
+// @version      2024-12-22
 // @description  A browser script made to give enhancements on miniblox.io
 // @author       Roblox-Thot
 // @match        https://miniblox.io/*
