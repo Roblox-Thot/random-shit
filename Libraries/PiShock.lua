@@ -13,7 +13,7 @@
 ]]--
 
 local function shockAPI(username: StringValue, app_name: StringValue, sharecode: StringValue, api_key: StringValue)
-    local HttpRequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
+    local HttpRequest = http and http.request or http_request or request
 
     local self = {
         username = username,

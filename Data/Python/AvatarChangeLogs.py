@@ -2,6 +2,7 @@
 Watches a Roblox avatar and
 sends a webhook when ever it's updated
 '''
+
 from requests import session, exceptions
 from time import sleep
 requests = session()

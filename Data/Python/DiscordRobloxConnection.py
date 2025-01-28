@@ -2,6 +2,7 @@
 Python script to host a site to allow mass authenticating Roblox accounts for Discord.
 Recommended method is to use ic3w0lf22/Roblox-Account-Manager and click the "Open URL" with "http://127.0.0.1/"
 '''
+
 from flask import Flask
 import requests
 

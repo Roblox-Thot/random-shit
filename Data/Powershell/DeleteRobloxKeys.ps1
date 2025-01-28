@@ -1,5 +1,5 @@
 # Cleans Roblox studio data in credential manager and registry
-# Deleting the Roblox studio folder(s) and changing your MAC address will guarantee to not be linked
+# Deleting the Roblox folder(s) and changing your MAC address after will lowwer the chance to not be linked
 
 # This deletes all saved Roblox credentials from
 # "Control Panel\User Accounts\Credential Manager"'s windows credential manager

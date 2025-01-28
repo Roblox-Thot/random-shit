@@ -1,6 +1,6 @@
 --[[
     Plugin to run currently open Roblox script
-]]
+]]--
 
 local Toolbar = plugin:CreateToolbar("Script Runner")
 local runButton = Toolbar:CreateButton("Run Server", "Runs open script as server", "rbxassetid://0")

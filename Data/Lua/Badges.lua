@@ -1,4 +1,6 @@
--- Prints all badge IDs for games
+--[[
+Prints all badge IDs for games
+]]--
 
 local game = workspace.Parent
 local HttpService = game:GetService("HttpService")
