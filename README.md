@@ -17,7 +17,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   <summary>GetAuthTicketRoblox.js</summary>
   <blockquote>
     <a href="Data/Javascript/GetAuthTicketRoblox.js">Source link</a><br>
-    JavaScript that gets the auth ticket but uses the Roblox library loaded when the site loads.
+    JavaScript that gets the auth ticket but useing the Roblox library loaded when the site loads, so it will always work. (until they change the function name)
   </blockquote>
 </details>
 
