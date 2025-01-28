@@ -1,45 +1,35 @@
 // ==UserScript==
-// @name         Cloudflare Turnstile Autoclick
-// @namespace    http://cloudflare.com/
+// @name         Recaptcha Autoclick
+// @namespace    http://google.com/
 // @version      2024-12-18
-// @description  autoclicks the CF turnstiles
+// @description  autoclicks Recaptcha
 // @author       Roblox-Thot
-// @match        https://challenges.cloudflare.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=cloudflare.com
+// @match        https://*.google.com/recaptcha/api2/anchor*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
 
 (function() {
     'use strict';
+    function print(msg) {console.log("AUTOCLICKER",msg)}
 
-    const originalAttachShadow = Element.prototype.attachShadow;
+    // Scans every second since more isn't needed
+    print("LOADED")
+    const scanning = setInterval(search, 1000);
+    function search() {
+        const button = document.querySelector("#recaptcha-anchor > div.recaptcha-checkbox-border");
+        // Checks if the button exists to prevent issues
+        if (button) {
+            // Stops scanning
+            clearInterval(scanning);
 
-    // Hooks the attachShadow function
-    Element.prototype.attachShadow = function (init) {
-        // Return the old attachShadow function
-        Element.prototype.attachShadow = originalAttachShadow
-        
-        // Call the original function to return later
-        const shadowRoot = originalAttachShadow.call(this, init);
+            print("Fount button, waiting a bit to click it")
 
-        // Scans every second since more isn't needed
-        const scanning = setInterval(search, 1000);
-        function search() {
-            const inputs = shadowRoot.querySelectorAll('input[type="checkbox"]');
-            // While there shouldn't be more then one it prevents issues just incase
-            inputs.forEach(function(input) {
-                // Stops scanning
-                clearInterval(scanning);
-                
-                setTimeout(function() {
-                    input.click();
-                }, 100);
+            setTimeout(function() {
+                button.click();
+            }, 100);
 
-            });
         }
-
-        // Return original output to make sure nothing breaks
-        return shadowRoot;
-    };
+    }
 })();
