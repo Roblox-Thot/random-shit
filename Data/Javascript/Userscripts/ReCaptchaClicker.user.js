@@ -15,7 +15,6 @@
     function print(msg) {console.log("AUTOCLICKER",msg)}
 
     // Scans every second since more isn't needed
-    print("LOADED")
     const scanning = setInterval(search, 1000);
     function search() {
         const button = document.querySelector("#recaptcha-anchor > div.recaptcha-checkbox-border");
@@ -24,7 +23,7 @@
             // Stops scanning
             clearInterval(scanning);
 
-            print("Fount button, waiting a bit to click it")
+            print("Found button, waiting a bit to click it")
 
             setTimeout(function() {
                 button.click();
