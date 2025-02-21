@@ -142,7 +142,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   <summary>AvatarChangeLogs.py</summary>
   <blockquote>
     <a href="Data/Python/AvatarChangeLogs.py">Source link</a><br>
-    Python script to host a site to allow mass authenticating Roblox accounts for Discord.<br>
+    Python to log roblox avatar changes to a Discord webhook<br>
     <a href='https://i.imgur.com/lcu7yFf.png'><img height=420 src='https://i.imgur.com/lcu7yFf.png'></a>
   </blockquote>
 </details>
