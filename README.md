@@ -54,6 +54,16 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- GitBlox.lua -->
+<details>
+  <summary>GitBlox.lua</summary>
+  <blockquote>
+    <a href="Data/Lua/GitBlox.lua">Source link</a><br>
+    Roblox Studio script to clone a github repo into the game<br>
+    An auth token is recommended as you WILL be ratelimited other wise in most cases
+  </blockquote>
+</details>
+
 <!-- LogFilesInWorkspace.lua -->
 <details>
   <summary>LogFilesInWorkspace.lua</summary>
