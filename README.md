@@ -47,7 +47,8 @@ Random scripts and shit that don't require their own repo but I don't want to us
   <summary>ExtractZip.lua</summary>
   <blockquote>
     <a href="Data/Lua/ExtractZip.lua">Source link</a><br>
-    Extracts a zip from a url into the workspace folder of the user.
+    Extracts a zip from a url into the workspace folder of the user.<br>
+    Uses a edited version of 0x5eal's <a href="https://github.com/0x5eal/luau-unzip">luau-unzip</a> to work in Roblox scripting utils.
   </blockquote>
 </details>
 
