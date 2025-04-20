@@ -42,6 +42,15 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- ExtractZip.lua -->
+<details>
+  <summary>ExtractZip.lua</summary>
+  <blockquote>
+    <a href="Data/Lua/ExtractZip.lua">Source link</a><br>
+    Extracts a zip from a url into the workspace folder of the user.
+  </blockquote>
+</details>
+
 <!-- GetDiscordFromPreMiD.lua -->
 <details>
   <summary>GetDiscordFromPreMiD.lua</summary>
