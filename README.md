@@ -70,7 +70,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   <blockquote>
     <a href="Data/Lua/WorkspaceLog/LogFilesInWorkspace.lua">Source link</a><br>
     Will save to file any whitelisted files to a file.<br>
-    To export saved data use this <a href="Data/Lua/WorkspaceLog/ExportLoggedFiles.lua">RLua script</a> or <a href="Data/Lua/WorkspaceLog/ExportLoggedFiles.py">Python script</a>.<br>
+    To export saved data use this <a href="Data/Lua/WorkspaceLog/ExportLoggedFiles.lua">Luau script</a> or <a href="Data/Lua/WorkspaceLog/ExportLoggedFiles.py">Python script</a>.<br>
   </blockquote>
 </details>
 
