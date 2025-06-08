@@ -178,6 +178,15 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- GithubUpdateLogs.py -->
+<details>
+  <summary>GithubUpdateLogs.py</summary>
+  <blockquote>
+    <a href="Data/Lua/GithubUpdateLogs.py">Source link</a><br>
+    Checks for new github repo updates and pushes it to a discord webhook
+  </blockquote>
+</details>
+
 <!-- RobloxUnwarn.py -->
 <details>
   <summary>RobloxUnwarn.py</summary>
