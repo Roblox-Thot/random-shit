@@ -237,6 +237,16 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- RobloxDarkMode.user.js -->
+<details>
+  <summary>RobloxDarkMode.user.js</summary>
+  <blockquote>
+    <a href="Data/Javascript/Userscripts/RobloxDarkMode.user.js">Source link</a><br>
+    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/RobloxDarkMode.user.js">Install</a><br>
+    Turns on Roblox's dark mode by default on any logged in or made account to protect eyes.
+  </blockquote>
+</details>
+
 <!-- SourceMapGrabber.user.js -->
 <details>
   <summary>SourceMapGrabber.user.js</summary>
