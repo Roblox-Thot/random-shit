@@ -246,4 +246,13 @@ Random scripts and shit that don't require their own repo but I don't want to us
     Tamper monkey script to scrape the source map links off the current page and add a button to the extention popout to print them to page.<br>
     (Shit but works some of the time)
   </blockquote>
+
+<!-- YoutubeDisable.user.js -->
+<details>
+  <summary>YoutubeDisable.user.js</summary>
+  <blockquote>
+    <a href="Data/Javascript/Userscripts/YoutubeDisable.user.js">Source link</a><br>
+    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/YoutubeDisable.user.js">Install</a><br>
+    Disables the arrow keys and numbers to preven seeking on YouTube by mistake.<br>
+  </blockquote>
 </details>
