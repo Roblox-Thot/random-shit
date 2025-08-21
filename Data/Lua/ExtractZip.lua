@@ -1,3 +1,6 @@
+--[[
+    An unzipper fork to work in roblox
+]]--
 local zip = loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxThot/luau-unzip/main/lib/init.luau", true))()
 
 -- Read the ZIP file

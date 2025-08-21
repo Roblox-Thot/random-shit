@@ -35,6 +35,15 @@ Random scripts and shit that don't require their own repo but I don't want to us
 
 <!-- Badges.lua -->
 <details>
+  <summary>AirshipScriptDumper.lua</summary>
+  <blockquote>
+    <a href="Data/Lua/AirshipScriptDumper.lua">Source link</a><br>
+    Dumps all of the scripts in an Airship game, must supply own decompiler.
+  </blockquote>
+</details>
+
+<!-- Badges.lua -->
+<details>
   <summary>Badges.lua</summary>
   <blockquote>
     <a href="Data/Lua/Badges.lua">Source link</a><br>
