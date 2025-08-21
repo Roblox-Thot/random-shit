@@ -1,5 +1,5 @@
 --[[
-    Dumps all of the scripts in an Airship game, must supply own decompiler
+    Dumps all of the scripts in an Airship game
 ]]--
 local Game = require("AirshipPackages/@Easy/Core/Shared/Game").Game
 local ChatColor = require("AirshipPackages/@Easy/Core/Shared/Util/ChatColor").ChatColor
@@ -25,7 +25,7 @@ local getscriptbytecode = getscriptbytecode or function(script)
     return table.concat(t)
 end
 
-local decompile = function(script)
+local decompile = decompile or function(script)
     local bytecode = getscriptbytecode(script)
     if not bytecode then
         return "-- Error: Could not get bytecode for script: " .. tostring(script.m_path)
@@ -72,8 +72,8 @@ for _,v in getscripts(true) do
     if string.find(path,"@easy/core") then continue end -- @easy/core is saved in code.zip
     makeFolders(path)
     
-    writefile(outFolder.."/"..path,decompile(v))
-    writefile(outFolder.."/"..path..".dat",getscriptbytecode(v)) -- Save the bytecode as well
+    writefile(outFolder.."/"..path, decompile(v))
+    writefile(outFolder.."/"..path..".dat", getscriptbytecode(v)) -- Save the bytecode as well
     decompPrint("Decompiled: " .. path)
 end
 decompPrint("Done")
