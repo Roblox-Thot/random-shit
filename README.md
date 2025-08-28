@@ -227,6 +227,17 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- HCaptchaClicker.user.js -->
+<details>
+  <summary>HCaptchaClicker.user.js</summary>
+  <blockquote>
+    <a href="Data/Javascript/Userscripts/HCaptchaClicker.user.js">Source link</a><br>
+    <a href="https://roblox-thot.github.io/random-shit/Data/Javascript/Userscripts/HCaptchaClicker.user.js">Install</a><br>
+    Auto clicks the hCaptcha checkbox once it loads.<br>
+    Only useful if you are mass solving captchas for something like SAG since this will fuck your captcha rep.
+  </blockquote>
+</details>
+
 <!-- MinibloxAdblock.user.js -->
 <details>
   <summary>MinibloxAdblock.user.js</summary>
