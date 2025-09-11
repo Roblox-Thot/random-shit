@@ -12,9 +12,9 @@
     shocker(50,2,'shock')
 ]]--
 
-local function shockAPI(username: StringValue, app_name: StringValue, sharecode: StringValue, api_key: StringValue)
-    local HttpRequest = http and http.request or http_request or request
+local HttpRequest = http and http.request or http_request or request
 
+local function shockAPI(username: StringValue, app_name: StringValue, sharecode: StringValue, api_key: StringValue)
     local self = {
         username = username,
         app_name = app_name,
