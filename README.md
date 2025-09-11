@@ -38,6 +38,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   <summary>AirshipScriptDumper.lua</summary>
   <blockquote>
     <a href="Data/Lua/AirshipScriptDumper.lua">Source link</a><br>
+    Made with the old HindenburgDll by Xylex before he quit.<br>
     Dumps all of the scripts in an Airship game, must supply own decompiler.<br>
     Metal works fine just don't do it with encoding enabled since Airship doesn't encode it.
   </blockquote>
