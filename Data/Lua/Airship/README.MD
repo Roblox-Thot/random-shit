@@ -1,3 +1,8 @@
+## Airship Scripts
+
+> [!NOTE]  
+> These may break at any point and I may never fix them cause I don't care
+
 <!--GetGameInfo.lua-->
 <details>
   <summary>GetGameInfo.lua</summary>
