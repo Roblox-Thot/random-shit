@@ -35,10 +35,11 @@ Random scripts and shit that don't require their own repo but I don't want to us
 
 <!-- Airship Scripts -->
 <details>
-  <summary>Airship Scripts</summary>
+  <summary><b>Airship Scripts</b></summary>
   <blockquote>
     <a href="Data/Lua/Airship">Browse</a><br>
-    Scripts made with the old HindenburgDll by Xylex before he quit.
+    Most of the scripts made with the old HindenburgDll by Xylex before he quit.<br>
+    Don't expect more, eventually I will stop playing it. 
   </blockquote>
 </details>
 
