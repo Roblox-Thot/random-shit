@@ -1,5 +1,5 @@
 --[[
-    Dumps all of the scripts in an Airship game
+    Dumps all of the scripts in an Airship game.
 ]]--
 local Game = require("AirshipPackages/@Easy/Core/Shared/Game").Game
 local ChatColor = require("AirshipPackages/@Easy/Core/Shared/Util/ChatColor").ChatColor
@@ -69,11 +69,11 @@ if not isfolder(outFolder) then makefolder(outFolder) end
 
 for _,v in getscripts(true) do
     path = tostring(v.m_path)
-    if string.find(path,"@easy/core") then continue end -- @easy/core is saved in code.zip
+    if string.find(path,"@easy/core") then continue end -- @easy/core is saved in code.zip which is in appdata
     makeFolders(path)
     
     writefile(outFolder.."/"..path, decompile(v))
-    writefile(outFolder.."/"..path..".dat", getscriptbytecode(v)) -- Save the bytecode as well
+    writefile(outFolder.."/"..path..".dat", getscriptbytecode(v)) -- Save the bytecode as well just incase for later use
     decompPrint("Decompiled: " .. path)
 end
 decompPrint("Done")

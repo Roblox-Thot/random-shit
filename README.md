@@ -33,14 +33,12 @@ Random scripts and shit that don't require their own repo but I don't want to us
 
 ## Lua
 
-<!-- Badges.lua -->
+<!-- Airship Scripts -->
 <details>
-  <summary>AirshipScriptDumper.lua</summary>
+  <summary>Airship Scripts</summary>
   <blockquote>
-    <a href="Data/Lua/AirshipScriptDumper.lua">Source link</a><br>
-    Made with the old HindenburgDll by Xylex before he quit.<br>
-    Dumps all of the scripts in an Airship game, must supply own decompiler.<br>
-    Metal works fine just don't do it with encoding enabled since Airship doesn't encode it.
+    <a href="Data/Lua/Airship">Browse</a><br>
+    Scripts made with the old HindenburgDll by Xylex before he quit.
   </blockquote>
 </details>
 
