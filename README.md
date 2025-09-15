@@ -1,6 +1,18 @@
 # random-shit
 Random scripts and shit that don't require their own repo but I don't want to use gist since it's not great.
 
+## C#
+
+<!-- MLSaveRedirect.cs -->
+<details>
+  <summary>MLSaveRedirect.cs</summary>
+  <blockquote>
+    <a href="Data/Cs/MLSaveRedirect.CS">Source link</a><br>
+    A melon loader mod snippet to redirect the save folder to the mods folder and "GameData".<br>
+    Useful for making a game allow multi insance by copying the folder. 
+  </blockquote>
+</details>
+
 ## Javascript
 
 <!-- GetAuthTicket.js -->
