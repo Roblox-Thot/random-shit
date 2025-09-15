@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DarkMode
-// @version      1.2
+// @version      1.3
 // @description  Auto enable darkmode on Roblox.com
 // @author       RobloxThot
 // @match        https://*.roblox.com/*
@@ -12,12 +12,11 @@
     var loggedIn = false;
     try{
         // This is just my jank way of checking if you are logged in
-        await (await fetch("https://www.roblox.com/mobileapi/userinfo", {
+        await (await fetch("https://friends.roblox.com/v1/user/friend-requests/count", {
             "credentials": "include"
         })).json();
         loggedIn = true;
     }catch{}
-
     if (!document.body.classList.contains('dark-theme')){
         if(loggedIn){
             // If we are logged in then attempt to enable dark mode
