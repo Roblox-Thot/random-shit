@@ -9,7 +9,7 @@ Random scripts and shit that don't require their own repo but I don't want to us
   <blockquote>
     <a href="Data/Cs/MLSaveRedirect.CS">Source link</a><br>
     A melon loader mod snippet to redirect the save folder to the mods folder and "GameData".<br>
-    Useful for making a game allow multi insance by copying the folder. 
+    Useful for making a game allow multi insance by having game copies. 
   </blockquote>
 </details>
 
