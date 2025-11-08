@@ -16,10 +16,15 @@ if (newItems) {
         // If you can't sell the item skip it (not 100% tested)
     	if (!itemData) continue;
 
-        // If the item is already in the list skip it
-        if (addedHashes.includes(itemData.description.market_hash_name)) continue;
+		let description = itemData.description
 
-        addedHashes.push(itemData.description.market_hash_name);
+		// Can't be sold so skip over it
+        if (!description.marketable) continue;
+
+        // If the item is already in the list skip it
+        if (addedHashes.includes(description.market_hash_name)) continue;
+
+        addedHashes.push(description.market_hash_name);
         list += '&items[]=' + encodeURIComponent(itemData.description.market_hash_name);
     }
     
@@ -28,3 +33,4 @@ if (newItems) {
 } else {
     console.log('No "newitemscroll" so no new items.');
 }
+
