@@ -1,7 +1,11 @@
 --[[
     Code taken from narwhalhacks.xyz its just to prevent it from being lost tbh
     OG thread: https://v3rmillion.net/showthread.php?tid=976061&pid=6882206
+
+    loadstring(game:HttpGet("https://github.com/Roblox-Thot/scripts/raw/main/libs/alerts.lua", true))()
+    Notify('Title','bottom txt', 5)
 ]]--
+
 
 function Notify(a, b, c)
     local d = Instance.new("ScreenGui")
@@ -64,7 +68,3 @@ function Notify(a, b, c)
     wait(1)
     d:Destroy()
 end
---[[
-    loadstring(game:HttpGet("https://github.com/Roblox-Thot/scripts/raw/main/libs/alerts.lua", true))()
-    Notify('Title','bottom txt', 5)
-]]--
