@@ -41,7 +41,7 @@
     <a href="ScriptDumper.lua">Source link</a><br>
     Dumps all of the scripts in an Airship game, must supply own decompiler.<br>
     Metal works fine just don't do it with encoding enabled since Airship doesn't encode it.<br>
-    Only requires a getscripts function to get all the scripts in the game.
+    Only requires a getscripts function and a way to run protected scripts to get all the scripts with paths in the game.
   </blockquote>
 </details>
 

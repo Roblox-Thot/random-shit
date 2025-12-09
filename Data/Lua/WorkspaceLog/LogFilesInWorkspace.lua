@@ -4,7 +4,8 @@
 
     Ex: whitelisting "lua"
     can save a file called  "6872274481.Lua"
-]]
+]]--
+
 local whitelistedTypes = {
     "lua",
     "txt"

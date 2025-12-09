@@ -1,6 +1,7 @@
 --[[
     Dumps all of the scripts in an Airship game.
 ]]--
+
 local Game = require("AirshipPackages/@Easy/Core/Shared/Game").Game
 local ChatColor = require("AirshipPackages/@Easy/Core/Shared/Util/ChatColor").ChatColor
 local outFolder = Game.gameId -- :shrug: just game id ig
@@ -11,8 +12,8 @@ local function decompPrint(message)
         message = table.concat(message, " ")
     end
     message = tostring(message)
-    print("<Decomp>", message)
-    message = ChatColor.Red("<Decomp> ")..message
+    print("Decomp:", message)
+    message = ChatColor.Red("Decomp: ")..message
     Game:BroadcastMessage(message)
 end
 

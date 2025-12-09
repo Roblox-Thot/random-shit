@@ -1,6 +1,6 @@
 --[[
 	#Lazy
-]]
+]]--
 
 getgenv().Services = setmetatable({},{
 	__index = function(self, ServiceName)
