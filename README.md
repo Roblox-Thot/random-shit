@@ -200,6 +200,18 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- FishstrapDowngrader.py -->
+<details>
+  <summary>FishstrapDowngrader.py</summary>
+  <blockquote>
+    <a href="Data/Python/FishstrapDowngrader.py">Source link</a><br>
+    Python script to allow easy downgrading on <a href="https://github.com/fishstrap/fishstrap">Fishstrap</a>.<br>
+    To use effectivly with exploits make sure "Roblox Upgrades" is turned off in settings.
+    <br><br>
+    Requires both Fishstrap and not being banned from inject.today's API (if you somehow were ig)
+  </blockquote>
+</details>
+
 <!-- GithubUpdateLogs.py -->
 <details>
   <summary>GithubUpdateLogs.py</summary>
