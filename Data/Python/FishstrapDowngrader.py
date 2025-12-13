@@ -20,6 +20,13 @@ print()
 
 print('1. Update to Current')
 print('2. Rollback to Previous')
+print('3. Custom version')
 user_input = input('> ')
-rollback = previous_version if user_input.strip() == '2' else current_version
-__import__('subprocess').Popen([FISHSTRAP_APP, str(current_version)])
+
+set_to_version = previous_version if user_input.strip() == '2' else current_version
+
+if user_input.strip() == '3':
+    custom_version = input('Enter custom version: ')
+    set_to_version = custom_version.strip()
+
+__import__('subprocess').Popen([FISHSTRAP_APP, str(set_to_version)])
