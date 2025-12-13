@@ -6,6 +6,7 @@ def Print(msg):
     print(f'[Fishstrap Updater] {msg}')
 
 def get_roversion(rotype = 'current'):
+    # TODO: Rewrite as urllib.request that way requests doesn't need installed (who tf doeeve reve requests)
     url = f'https://inject.today/api/versions/{rotype}'
     response = requests.get(url).json()
     return response['Windows']['Version']
