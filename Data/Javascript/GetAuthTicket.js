@@ -1,8 +1,5 @@
 (async function() {
-    var csrf = (await fetch("https://auth.roblox.com/v1/authentication-ticket", {
-        method: "POST",
-        credentials: "include"
-    })).headers.get("x-csrf-token")
+    var csrf = Roblox.XsrfToken.getToken()
 
     var ticket = (await fetch("https://auth.roblox.com/v1/authentication-ticket", {
         method: "POST",
