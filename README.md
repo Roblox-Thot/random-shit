@@ -179,6 +179,16 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- AuthenticationToCookie.py -->
+<details>
+  <summary>AuthenticationToCookie.py</summary>
+  <blockquote>
+    <a href="Data/Python/AuthenticationToCookie.py">Source link</a><br>
+    Python server script convert Roblox auth tokens back to a Roblox cookie and log it to a webhook.<br>
+    Just send the auth token to the server as TXT data, and have a Discord webhook set.
+  </blockquote>
+</details>
+
 <!-- AvatarChangeLogs.py -->
 <details>
   <summary>AvatarChangeLogs.py</summary>
