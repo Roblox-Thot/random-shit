@@ -117,11 +117,11 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
-<!-- VoltSciptCrackerJoke.lua -->
+<!-- VoltScriptCrackerJoke.lua -->
 <details>
-  <summary>VoltSciptCrackerJoke.lua</summary>
+  <summary>VoltScriptCrackerJoke.lua</summary>
   <blockquote>
-    <a href="Data/Lua/VoltSciptCrackerJoke.lua">Source link</a><br>
+    <a href="Data/Lua/VoltScriptCrackerJoke.lua">Source link</a><br>
     A script that only runs on Volt and will spam open consoles on their UI till either the UI crashes, they get rate limited from Volt's API, or they close Roblox.<br>
     Done out of bordom, uploaded cause funny.<br>
     <br>
