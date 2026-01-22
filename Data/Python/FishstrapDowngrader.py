@@ -15,9 +15,12 @@ def get_roversion(rotype = 'current'):
         return (f'Error fetching {rotype} version: {e}')
 
 def get_weao_rover():
-    url = f'https://weao.gg/api/status/exploits/{DESIRED_SPLOIT.lower()}'
-    response = requests.get(url).json()
-    return response['rbxversion']
+    try:
+        url = f'https://weao.gg/api/status/exploits/{DESIRED_SPLOIT.lower()}'
+        response = requests.get(url).json()
+        return response['rbxversion']
+    except Exception as e:
+        return (f'Error fetching {DESIRED_SPLOIT} from WEAO (It`s probably down again)')
 
 current_version = get_roversion('current')
 previous_version = get_roversion('previous')
