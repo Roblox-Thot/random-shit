@@ -234,6 +234,15 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- RandomWindowTitles.py -->
+<details>
+  <summary>RandomWindowTitles.py</summary>
+  <blockquote>
+    <a href="Data/Lua/RandomWindowTitles.py">Source link</a><br>
+    Loops through every open window and sets it to a random string, I donno just random shit (hence the repo name)
+  </blockquote>
+</details>
+
 <!-- RobloxUnwarn.py -->
 <details>
   <summary>RobloxUnwarn.py</summary>
