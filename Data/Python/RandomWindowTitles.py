@@ -1,3 +1,7 @@
+"""
+Grabs every open and visible window setting it to a random string of letters for no reason.
+"""
+
 import string, win32gui
 from time import sleep
 from random import choice
@@ -14,3 +18,4 @@ def winEnumHandler( hwnd, ctx ):
 if __name__ == "__main__":
     while True:
         win32gui.EnumWindows( winEnumHandler, None )
+
