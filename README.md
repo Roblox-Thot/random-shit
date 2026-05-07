@@ -34,6 +34,18 @@ Random scripts and shit that don't require their own repo but I don't want to us
   </blockquote>
 </details>
 
+<!-- SteamSellNewItems.js -->
+<details>
+  <summary>SteamSellNewItems.js</summary>
+  <blockquote>
+    <a href="Data/Javascript/SteamSellNewItems.js">Source link</a><br>
+    JavaScript to grab the new cards in Steam's "Your new items" in the inventory after you get new items.<br>
+    Then filter out the ones that can be sold as to not grab things like point shop items.<br><br>
+    To use you need to fully load your items by either opening the "Advanced filters" drop down and waiting for the loading icon next to the page counter to go away.<br>
+    Or use <a href="https://github.com/Nuklon/Steam-Economy-Enhancer">Steam Economy Enhancer</a> which will auto load your inventory pages for you
+  </blockquote>
+</details>
+
 ## Lua
 
 <!-- Airship Scripts -->
