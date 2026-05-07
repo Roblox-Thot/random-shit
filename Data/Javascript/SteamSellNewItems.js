@@ -29,8 +29,7 @@ if (newItems) {
     }
     
     let sellLink = 'https://steamcommunity.com/market/multisell?appid=753&contextid=6' + list
-    console.log(sellLink);
+    console.log(`Link to sell new items: ${sellLink}&`);
 } else {
-    console.log('No "newitemscroll" so no new items.');
+    console.error('No "newitemscroll" so no new items.');
 }
-
