@@ -1,6 +1,8 @@
 import requests
 
+# If you don't use Volt set it below according to the docs.weao.xyz
 DESIRED_SPLOIT = 'Volt'
+# If fishstrap (or fork) is located elsewhere please edit it below too
 FISHSTRAP_APP = __import__('os').path.expandvars('%LOCALAPPDATA%/Fishstrap/Fishstrap.exe')
 
 def Print(msg):
@@ -16,8 +18,8 @@ def get_roversion(rotype = 'current'):
 
 def get_weao_rover():
     try:
-        url = f'https://weao.gg/api/status/exploits/{DESIRED_SPLOIT.lower()}'
-        response = requests.get(url).json()
+        url = f'https://weao.xyz/api/status/exploits/{DESIRED_SPLOIT.lower()}'
+        response = requests.get(url, headers={"User-Agent":"WEAO-3PService"}).json()
         return response['rbxversion']
     except Exception as e:
         return (f'Error fetching {DESIRED_SPLOIT} from WEAO (It`s probably down again)')
@@ -53,4 +55,4 @@ match user_input.strip():
         Print('Invalid option selected. Exiting.')
         exit(1)
 
-__import__('subprocess').Popen([FISHSTRAP_APP, str(set_to_version)])
+__import__('subprocess').Popen([FISHSTRAP_APP, '-player', '-version', str(set_to_version)])
